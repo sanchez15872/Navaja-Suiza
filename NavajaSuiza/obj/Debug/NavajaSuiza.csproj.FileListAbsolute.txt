@@ -1,0 +1,13 @@
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe.config
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.pdb
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csprojResolveAssemblyReference.cache
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación_1.frmAplicacion1.resources
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.frmMain.resources
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Properties.Resources.resources
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csproj.GenerateResource.Cache
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.exe
+E:\OneDrive\IES\2016-2017\ede\proyecto Navaja suiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.pdb
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe.config
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.exe
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.pdb
