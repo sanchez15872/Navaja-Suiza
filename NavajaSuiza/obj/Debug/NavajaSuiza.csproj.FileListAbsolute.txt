@@ -19,3 +19,7 @@ G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.frmMain.
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Properties.Resources.resources
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csproj.GenerateResource.Cache
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Ejercicio_18.Form1.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.XML
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Ejercicio_20.Form1.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Ejercicio_13.Form1.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Sucesion_fibonacci.Form1.resources
