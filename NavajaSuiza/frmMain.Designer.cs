@@ -96,6 +96,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmMain";
             this.Text = "Navaja Suiza";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

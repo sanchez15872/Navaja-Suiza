@@ -53,6 +53,12 @@
     <Compile Include="Aplicación 1\frmAplicacion1.Designer.cs">
       <DependentUpon>frmAplicacion1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicación 2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicación 2\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aplicación 1\frmAplicacion1.resx">
       <DependentUpon>frmAplicacion1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicación 2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -90,7 +99,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aplicación 2\" />
     <Folder Include="Aplicación 3\" />
     <Folder Include="Aplicación 4\" />
   </ItemGroup>
