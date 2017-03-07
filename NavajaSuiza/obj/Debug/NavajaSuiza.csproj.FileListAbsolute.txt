@@ -18,11 +18,7 @@ G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicaci
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.frmMain.resources
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Properties.Resources.resources
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csproj.GenerateResource.Cache
-G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Ejercicio_18.Form1.resources
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.XML
-G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Ejercicio_20.Form1.resources
-G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Ejercicio_13.Form1.resources
-G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\Sucesion_fibonacci.Form1.resources
 E:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe.config
 E:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.XML
 E:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.exe
@@ -41,3 +37,10 @@ E:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicaci
 E:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion3.frmAplicacion3.resources
 E:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion_4.FormularioFibonacci.resources
 E:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion4.frmAplicacion4.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion1.FormularioHora.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion_2.FormularioFactorial.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicación2.frmAplicacion2.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion_3.FormularioPotencia.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion3.frmAplicacion3.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion_4.FormularioFibonacci.resources
+G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion4.frmAplicacion4.resources
