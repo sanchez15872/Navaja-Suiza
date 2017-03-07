@@ -1,6 +1,6 @@
-﻿namespace NavajaSuiza.Aplicación2
+﻿namespace NavajaSuiza.Aplicacion4
 {
-    partial class frmAplicacion2
+    partial class frmAplicacion4
     {
         /// <summary>
         /// Required designer variable.
@@ -34,32 +34,32 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(111, 100);
+            this.button1.Location = new System.Drawing.Point(205, 111);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 103);
+            this.button1.Size = new System.Drawing.Size(92, 85);
             this.button1.TabIndex = 0;
-            this.button1.Text = "LLama a la  lógica de la clase Aplicación2 ";
+            this.button1.Text = "LLama a la  lógica de la clase Aplicación4";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 31);
+            this.label1.Location = new System.Drawing.Point(63, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 13);
+            this.label1.Size = new System.Drawing.Size(362, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Esta aplicación te pide un número y este te devuelve el factorial";
+            this.label1.Text = "Este Programa te calcula la succesión de fibonacci de un numero insertado";
             // 
-            // frmAplicacion2
+            // frmAplicacion4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(342, 261);
+            this.ClientSize = new System.Drawing.Size(483, 261);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "frmAplicacion2";
-            this.Text = "Form1";
+            this.Name = "frmAplicacion4";
+            this.Text = "frmAplicacion4";
             this.ResumeLayout(false);
             this.PerformLayout();
 

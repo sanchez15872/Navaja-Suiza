@@ -8,26 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio_18
+namespace NavajaSuiza.Aplicación2
 {
-    public partial class Form1 : Form
+    public partial class frmAplicacion2 : Form
     {
-        public Form1()
+        public frmAplicacion2()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           int numero, i, fac;
-            fac = 1;   
-            numero = int.Parse(textBox1.Text);
-  
-            for (i = numero; i > 0; i--)
-                fac = fac * i;
-              
-                                                          
-            MessageBox.Show("El factorial de " + numero + " es " + fac);
+            NavajaSuiza.Aplicacion_2.FormularioFactorial Formulario = new NavajaSuiza.Aplicacion_2.FormularioFactorial();
+            Formulario.ShowDialog();
         }
     }
 }

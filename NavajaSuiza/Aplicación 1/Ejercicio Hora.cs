@@ -8,15 +8,52 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio_20
+namespace NavajaSuiza.Aplicacion1
 {
-    public partial class Form1 : Form
+    public partial class FormularioHora : Form
     {
-        public Form1()
+        public FormularioHora()
         {
             InitializeComponent();
         }
+        void MostrarHora(int horas,int minutos, int segundos)
+        {
+            if (horas < 24 && minutos < 60 && segundos < 60)
+            {
+                if (segundos < 59)
+                {
+                    segundos = segundos + 1;
+                    MessageBox.Show("La hora siguiente será :" + horas + " :" + minutos + " :" + segundos);
+                }
+                if (segundos == 59)
+                {
+                    if (minutos == 59)
+                    {
+                        if (horas == 23)
+                        {
+                            MessageBox.Show("La hora siguiente será :" + "00 :" + "00 :" + "00 ");
 
+                        }
+                        else
+                        {
+                            horas = horas + 1;
+                            MessageBox.Show("La hora siguiente será :" + horas + "00 :" + "00 ");
+                        }
+
+                    }
+                    else
+                    {
+                        minutos = minutos + 1;
+                        MessageBox.Show("La hora siguiente será :" + horas + " :" + minutos + " :" + "00 ");
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("La hora no es correcta");
+            }
+
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             int horas, minutos, segundos;
@@ -25,45 +62,7 @@ namespace Ejercicio_20
             minutos = int.Parse(Minutos.Text);
             segundos = int.Parse(Segundos.Text);
 
-            if (horas < 24 && minutos < 60 && segundos < 60)
-            {
-                if (segundos < 59)
-                {
-                    segundos = segundos + 1;
-                    MessageBox.Show("La hora es :" + horas + " :" + minutos + " :" + segundos);
-                }
-             if (segundos == 59)
-                {
-                    if (minutos == 59)
-                    {
-                        if (horas == 23)
-                        {
-                            MessageBox.Show("La hora es :" + "00 :" + "00 :" + "00 ");
-
-                        }
-                        else
-                        {
-                            horas = horas + 1;
-                            MessageBox.Show("La hora es :" + horas + "00 :" + "00 ");
-                        }
-
-                    }
-                    else
-                    {
-                        minutos = minutos + 1;
-                        MessageBox.Show("La hora es :" + horas +" :" + minutos + " :" + "00 ");
-                    }
-
-
-                }
-                   
-              
-            }
-           else
-            {
-                MessageBox.Show("La hora no es correcta");
-            }
-            
+            MostrarHora(horas, minutos, segundos);
             
         }
     }

@@ -4,41 +4,22 @@
         <name>NavajaSuiza</name>
     </assembly>
     <members>
-        <member name="T:NavajaSuiza.Aplicación_1.Aplicacion1">
+        <member name="F:NavajaSuiza.Aplicacion1.FormularioHora.components">
             <summary>
-            clase que ejecuta la lógica de la aplicación 1
+            Variable del diseñador necesaria.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicación_1.Aplicacion1.#ctor">
+        <member name="M:NavajaSuiza.Aplicacion1.FormularioHora.Dispose(System.Boolean)">
             <summary>
-            contructor de la clase
+            Limpiar los recursos que se estén usando.
             </summary>
-            <remarks>Sin uso</remarks>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         </member>
-        <member name="P:NavajaSuiza.Aplicación_1.Aplicacion1.MyProperty">
+        <member name="M:NavajaSuiza.Aplicacion1.FormularioHora.InitializeComponent">
             <summary>
-            propiedad de la clase Aplicacion1
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
             </summary>
-            <remarks>Sin uso</remarks>
-        </member>
-        <member name="M:NavajaSuiza.Aplicación_1.Aplicacion1.Metodo">
-            <summary>
-            devuelve un valor
-            </summary>
-            <returns>un cadena con un mensaje</returns>
-        </member>
-        <member name="F:NavajaSuiza.Aplicación_1.frmAplicacion1.oAplicacion1">
-            <summary>
-            crea una variable de tipo aplicacion1 y la instancia para uso posterior
-            </summary>
-        </member>
-        <member name="M:NavajaSuiza.Aplicación_1.frmAplicacion1.button1_Click(System.Object,System.EventArgs)">
-            <summary>
-            evento que lanza un método de la clase aplicación1
-            
-            </summary>
-            <param name="sender"></param>
-            <param name="e"></param>
         </member>
         <member name="F:NavajaSuiza.Aplicación_1.frmAplicacion1.components">
             <summary>
@@ -52,6 +33,108 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:NavajaSuiza.Aplicación_1.frmAplicacion1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Aplicacion_2.FormularioFactorial.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion_2.FormularioFactorial.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion_2.FormularioFactorial.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Aplicación2.frmAplicacion2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicación2.frmAplicacion2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NavajaSuiza.Aplicación2.frmAplicacion2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Aplicacion_3.FormularioPotencia.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion_3.FormularioPotencia.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion_3.FormularioPotencia.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Aplicacion3.frmAplicacion3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion3.frmAplicacion3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion3.frmAplicacion3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Aplicacion_4.FormularioFibonacci.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion_4.FormularioFibonacci.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion_4.FormularioFibonacci.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Aplicacion4.frmAplicacion4.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion4.frmAplicacion4.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion4.frmAplicacion4.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -100,74 +183,6 @@
             <summary>
               Invalida la propiedad CurrentUICulture del subproceso actual para todas las
               búsquedas de recursos usando esta clase de recursos fuertemente tipados.
-            </summary>
-        </member>
-        <member name="F:Ejercicio_20.Form1.components">
-            <summary>
-            Variable del diseñador necesaria.
-            </summary>
-        </member>
-        <member name="M:Ejercicio_20.Form1.Dispose(System.Boolean)">
-            <summary>
-            Limpiar los recursos que se estén usando.
-            </summary>
-            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
-        </member>
-        <member name="M:Ejercicio_20.Form1.InitializeComponent">
-            <summary>
-            Método necesario para admitir el Diseñador. No se puede modificar
-            el contenido de este método con el editor de código.
-            </summary>
-        </member>
-        <member name="F:Ejercicio_18.Form1.components">
-            <summary>
-            Variable del diseñador necesaria.
-            </summary>
-        </member>
-        <member name="M:Ejercicio_18.Form1.Dispose(System.Boolean)">
-            <summary>
-            Limpiar los recursos que se estén usando.
-            </summary>
-            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
-        </member>
-        <member name="M:Ejercicio_18.Form1.InitializeComponent">
-            <summary>
-            Método necesario para admitir el Diseñador. No se puede modificar
-            el contenido de este método con el editor de código.
-            </summary>
-        </member>
-        <member name="F:Ejercicio_13.Form1.components">
-            <summary>
-            Variable del diseñador necesaria.
-            </summary>
-        </member>
-        <member name="M:Ejercicio_13.Form1.Dispose(System.Boolean)">
-            <summary>
-            Limpiar los recursos que se estén usando.
-            </summary>
-            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
-        </member>
-        <member name="M:Ejercicio_13.Form1.InitializeComponent">
-            <summary>
-            Método necesario para admitir el Diseñador. No se puede modificar
-            el contenido de este método con el editor de código.
-            </summary>
-        </member>
-        <member name="F:Sucesion_fibonacci.Form1.components">
-            <summary>
-            Variable del diseñador necesaria.
-            </summary>
-        </member>
-        <member name="M:Sucesion_fibonacci.Form1.Dispose(System.Boolean)">
-            <summary>
-            Limpiar los recursos que se estén usando.
-            </summary>
-            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
-        </member>
-        <member name="M:Sucesion_fibonacci.Form1.InitializeComponent">
-            <summary>
-            Método necesario para admitir el Diseñador. No se puede modificar
-            el contenido de este método con el editor de código.
             </summary>
         </member>
     </members>

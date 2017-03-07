@@ -1,6 +1,6 @@
-﻿namespace Ejercicio_20
+﻿namespace NavajaSuiza.Aplicacion1
 {
-    partial class Form1
+    partial class FormularioHora
     {
         /// <summary>
         /// Variable del diseñador necesaria.

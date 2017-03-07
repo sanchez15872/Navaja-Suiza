@@ -47,12 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aplicación 1\Aplicacion1.cs" />
-    <Compile Include="Aplicación 1\Form1.cs">
+    <Compile Include="Aplicación 1\Ejercicio Hora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 1\Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Aplicación 1\Ejercicio Hora.designer.cs">
+      <DependentUpon>Ejercicio Hora.cs</DependentUpon>
     </Compile>
     <Compile Include="Aplicación 1\frmAplicacion1.cs">
       <SubType>Form</SubType>
@@ -60,23 +59,41 @@
     <Compile Include="Aplicación 1\frmAplicacion1.Designer.cs">
       <DependentUpon>frmAplicacion1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicación 2\Ejercicio Factorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicación 2\Ejercicio Factorial.designer.cs">
+      <DependentUpon>Ejercicio Factorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aplicación 2\frmAplicacion2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 2\frmAplicacion2.designer.cs">
+    <Compile Include="Aplicación 2\frmAplicacion2.Designer.cs">
       <DependentUpon>frmAplicacion2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 3\Form1.cs">
+    <Compile Include="Aplicación 3\Ejercicio Potencia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 3\Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Aplicación 3\Ejercicio Potencia.designer.cs">
+      <DependentUpon>Ejercicio Potencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 4\Form1.cs">
+    <Compile Include="Aplicación 3\frmAplicacion3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 4\Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Aplicación 3\frmAplicacion3.Designer.cs">
+      <DependentUpon>frmAplicacion3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicación 4\Ejercicio Fibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicación 4\Ejercicio Fibonacci.designer.cs">
+      <DependentUpon>Ejercicio Fibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicación 4\frmAplicacion4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicación 4\frmAplicacion4.Designer.cs">
+      <DependentUpon>frmAplicacion4.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -86,20 +103,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Aplicación 1\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 1\Ejercicio Hora.resx">
+      <DependentUpon>Ejercicio Hora.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Aplicación 1\frmAplicacion1.resx">
       <DependentUpon>frmAplicacion1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Aplicación 2\Ejercicio Factorial.resx">
+      <DependentUpon>Ejercicio Factorial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Aplicación 2\frmAplicacion2.resx">
       <DependentUpon>frmAplicacion2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 3\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 3\Ejercicio Potencia.resx">
+      <DependentUpon>Ejercicio Potencia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 4\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 3\frmAplicacion3.resx">
+      <DependentUpon>frmAplicacion3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicación 4\Ejercicio Fibonacci.resx">
+      <DependentUpon>Ejercicio Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicación 4\frmAplicacion4.resx">
+      <DependentUpon>frmAplicacion4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio_13
+namespace NavajaSuiza.Aplicacion_3
 {
-    public partial class Form1 : Form
+    public partial class FormularioPotencia : Form
     {
-        public Form1()
+        public FormularioPotencia()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace Ejercicio_13
         {
             int numero, potencia, resultado;
 
-            numero = int.Parse(textBox1.Text);
+            numero = int.Parse(TextBoxNumero.Text);
             potencia = int.Parse(textBox2.Text);
 
             resultado = potenciapro(numero, potencia);

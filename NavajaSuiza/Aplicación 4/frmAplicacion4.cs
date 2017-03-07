@@ -8,22 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NavajaSuiza.Aplicación_1
+namespace NavajaSuiza.Aplicacion4
 {
-    public partial class frmAplicacion1 : Form
-    {            
-
-        public frmAplicacion1()
+    public partial class frmAplicacion4 : Form
+    {
+        public frmAplicacion4()
         {
             InitializeComponent();
         }
 
-
-
-    
         private void button1_Click(object sender, EventArgs e)
         {
-            NavajaSuiza.Aplicacion1.FormularioHora Formulario = new NavajaSuiza.Aplicacion1.FormularioHora();
+            NavajaSuiza.Aplicacion_4.FormularioFibonacci Formulario = new NavajaSuiza.Aplicacion_4.FormularioFibonacci();
             Formulario.ShowDialog();
         }
     }
