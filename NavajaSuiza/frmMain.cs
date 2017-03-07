@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace NavajaSuiza
 {
+    /// <summary>
+    /// Clase pública del Formulario Main.
+    /// </summary>
     public partial class frmMain : Form
     {
         /// <summary>
