@@ -1,4 +1,7 @@
-﻿namespace NavajaSuiza.Aplicacion1
+﻿/// <summary>
+/// Espacio de nombres de la Aplicación 1
+/// </summary>
+namespace NavajaSuiza.Aplicacion1
 {
     /// <summary>
     /// Partial class FormularioHora

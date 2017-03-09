@@ -1,4 +1,7 @@
-﻿namespace NavajaSuiza.Aplicacion3
+﻿/// <summary>
+/// Espacio de nombres de la Aplicación 3
+/// </summary>
+namespace NavajaSuiza.Aplicacion3
 {
     /// <summary>
     /// partial class de frmAplicacion3

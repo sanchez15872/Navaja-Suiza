@@ -1,4 +1,7 @@
-﻿namespace NavajaSuiza.Aplicacion_4
+﻿/// <summary>
+/// Espacio de nombres de la Aplicación 4
+/// </summary>
+namespace NavajaSuiza.Aplicacion_4
 {
     /// <summary>
     /// partial class del FormularioFibonacci

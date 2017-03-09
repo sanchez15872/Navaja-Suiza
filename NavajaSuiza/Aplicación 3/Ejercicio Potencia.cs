@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Espacio de nombres de la Aplicación 3
+/// </summary>
 namespace NavajaSuiza.Aplicacion_3
 {
     /// <summary>

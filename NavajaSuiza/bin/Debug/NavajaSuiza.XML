@@ -367,6 +367,14 @@
             <param name="sender">Lanza el evento del button1</param>
             <param name="e">Si uso</param>
         </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:NavajaSuiza.frmMain.frmMain_Load(System.Object,System.EventArgs)" -->
+        <member name="M:NavajaSuiza.frmMain.pictureBox1_Click(System.Object,System.EventArgs)">
+            <summary>
+            No hay código que comentar
+            </summary>
+            <param name="sender">Lanza el evento del pictureBox1_Click</param>
+            <param name="e">sin uso</param>
+        </member>
         <member name="M:NavajaSuiza.frmMain.button4_Click(System.Object,System.EventArgs)">
             <summary>
             Llama al formulario de la segunda aplicación, te calcula el factorial de un número.
