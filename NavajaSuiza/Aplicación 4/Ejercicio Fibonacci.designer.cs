@@ -1,5 +1,8 @@
 ﻿namespace NavajaSuiza.Aplicacion_4
 {
+    /// <summary>
+    /// partial class del FormularioFibonacci
+    /// </summary>
     partial class FormularioFibonacci
     {
         /// <summary>

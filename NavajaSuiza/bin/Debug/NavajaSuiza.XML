@@ -8,6 +8,9 @@
             <summary>
             Clase pública del FormularioHora.
             </summary>
+            <summary>
+            Partial class FormularioHora
+            </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicacion1.FormularioHora.#ctor">
             <summary>
@@ -56,6 +59,9 @@
             <summary>
             Clase Pública del formulario que te llevará a la aplicación 1.
             </summary>
+            <summary>
+            Partial class frmAplicacion1
+            </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicación_1.frmAplicacion1.#ctor">
             <summary>
@@ -89,6 +95,9 @@
         <member name="T:NavajaSuiza.Aplicacion_2.FormularioFactorial">
             <summary>
             Clase pública del FormularioFactorial.
+            </summary>
+            <summary>
+            Partial class FormularioFactorial
             </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicacion_2.FormularioFactorial.#ctor">
@@ -135,6 +144,9 @@
             <summary>
             Clase publica del formulario que te llevará a la aplicación 2.
             </summary>
+            <summary>
+            partial class frmAplicacion2
+            </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicación2.frmAplicacion2.#ctor">
             <summary>
@@ -168,6 +180,9 @@
         <member name="T:NavajaSuiza.Aplicacion_3.FormularioPotencia">
             <summary>
             Clase pública del FormularioPotencia
+            </summary>
+            <summary>
+            Partial class FormularioPotencia
             </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicacion_3.FormularioPotencia.#ctor">
@@ -214,6 +229,9 @@
             <summary>
             Clase pública del formulario que te llevará a la aplicación 3.
             </summary>
+            <summary>
+            partial class de frmAplicacion3
+            </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicacion3.frmAplicacion3.#ctor">
             <summary>
@@ -247,6 +265,9 @@
         <member name="T:NavajaSuiza.Aplicacion_4.FormularioFibonacci">
             <summary>
             Clase pública del FormularioFibonacci
+            </summary>
+            <summary>
+            partial class del FormularioFibonacci
             </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicacion_4.FormularioFibonacci.#ctor">
@@ -293,6 +314,9 @@
             <summary>
             Clase pública del formulario que te llevará a la aplicación 4.
             </summary>
+            <summary>
+            Partial class frmAplicacion4
+            </summary>
         </member>
         <member name="M:NavajaSuiza.Aplicacion4.frmAplicacion4.#ctor">
             <summary>
@@ -321,6 +345,14 @@
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NavajaSuiza.frmMain">
+            <summary>
+            Clase pública del Formulario Main.
+            </summary>
+            <summary>
+            clase frmMain
             </summary>
         </member>
         <member name="M:NavajaSuiza.frmMain.#ctor">
@@ -371,6 +403,11 @@
             <summary>
             Método necesario para admitir el Diseñador. No se puede modificar
             el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:NavajaSuiza.Program">
+            <summary>
+            Clase principal de la aplicación
             </summary>
         </member>
         <member name="M:NavajaSuiza.Program.Main">

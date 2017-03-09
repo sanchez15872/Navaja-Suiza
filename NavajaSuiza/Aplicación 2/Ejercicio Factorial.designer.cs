@@ -1,5 +1,8 @@
 ﻿namespace NavajaSuiza.Aplicacion_2
 {
+    /// <summary>
+    /// Partial class FormularioFactorial
+    /// </summary>
     partial class FormularioFactorial
     {
         /// <summary>

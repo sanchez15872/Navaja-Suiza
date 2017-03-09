@@ -1,5 +1,8 @@
 ﻿namespace NavajaSuiza.Aplicacion3
 {
+    /// <summary>
+    /// partial class de frmAplicacion3
+    /// </summary>
     partial class frmAplicacion3
     {
         /// <summary>

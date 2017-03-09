@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Espacio de nombres de la Aplicación 2
+/// </summary>
 namespace NavajaSuiza.Aplicacion_2
 {
    /// <summary>
@@ -51,7 +54,8 @@ namespace NavajaSuiza.Aplicacion_2
         /// <param name="e">Si uso</param>
         private void button1_Click(object sender, EventArgs e)
         {
-           int numero, factorial;           
+           int numero, factorial;  
+                     
             numero = int.Parse(textBox1.Text);
 
             factorial = CalcularFactorial(numero);

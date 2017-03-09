@@ -6,6 +6,9 @@ using System.Windows.Forms;
 
 namespace NavajaSuiza
 {
+    /// <summary>
+    /// Clase principal de la aplicación
+    /// </summary>
     static class Program
     {
         /// <summary>

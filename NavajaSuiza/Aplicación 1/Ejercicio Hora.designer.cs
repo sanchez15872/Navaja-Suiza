@@ -1,5 +1,8 @@
 ﻿namespace NavajaSuiza.Aplicacion1
 {
+    /// <summary>
+    /// Partial class FormularioHora
+    /// </summary>
     partial class FormularioHora
     {
         /// <summary>

@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Espacio de nombres de NavajaSuiza
+/// </summary>
 namespace NavajaSuiza
 {
     /// <summary>
@@ -35,12 +38,20 @@ namespace NavajaSuiza
             Llamada.ShowDialog();
                   
          }
-
+        /// <summary>
+        /// No hay código que comentar
+        /// </summary>
+        /// <param name="sender">Lanza el evento del frmMain_Load/param>
+        /// <param name="e">sin uso</param>
         private void frmMain_Load(object sender, EventArgs e)
         {
 
         }
-
+        /// <summary>
+        /// No hay código que comentar
+        /// </summary>
+        /// <param name="sender">Lanza el evento del pictureBox1_Click</param>
+        /// <param name="e">sin uso</param>
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 

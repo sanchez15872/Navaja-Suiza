@@ -1,5 +1,11 @@
-﻿namespace NavajaSuiza
+﻿/// <summary>
+/// Namespace del frmMain
+/// </summary>
+namespace NavajaSuiza
 {
+    /// <summary>
+    /// clase frmMain
+    /// </summary>
     partial class frmMain
     {
         /// <summary>

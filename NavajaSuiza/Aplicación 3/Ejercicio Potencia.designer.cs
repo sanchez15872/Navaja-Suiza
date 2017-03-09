@@ -1,5 +1,8 @@
 ﻿namespace NavajaSuiza.Aplicacion_3
 {
+    /// <summary>
+    /// Partial class FormularioPotencia
+    /// </summary>
     partial class FormularioPotencia
     {
         /// <summary>

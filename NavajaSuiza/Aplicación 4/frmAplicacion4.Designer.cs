@@ -1,5 +1,8 @@
 ﻿namespace NavajaSuiza.Aplicacion4
 {
+    /// <summary>
+    /// Partial class frmAplicacion4
+    /// </summary>
     partial class frmAplicacion4
     {
         /// <summary>
