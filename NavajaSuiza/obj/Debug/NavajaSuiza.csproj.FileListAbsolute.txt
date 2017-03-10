@@ -44,3 +44,7 @@ G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicaci
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion3.frmAplicacion3.resources
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion_4.FormularioFibonacci.resources
 G:\Entornos de Desarrollo\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion4.frmAplicacion4.resources
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\bin\Debug\NavajaSuiza.exe.config
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\bin\Debug\NavajaSuiza.XML
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.exe
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.pdb

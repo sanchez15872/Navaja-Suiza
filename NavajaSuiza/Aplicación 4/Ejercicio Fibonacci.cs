@@ -66,18 +66,20 @@ namespace NavajaSuiza.Aplicacion_4
         {
             int numero;
             string texto;
-            try
+            bool correcto1;
+            
+
+            correcto1 = int.TryParse(textBox1.Text, out numero);
+            texto = CalcularFibonacci(numero);
+              
+            if (correcto1)
             {
-
-                numero = int.Parse(textBox1.Text);
-                texto = CalcularFibonacci(numero);
-
                 MessageBox.Show(texto);
             }
-            catch 
+            else
             {
-                MessageBox.Show("Por Favor, introduzca números");
-            }         
+                MessageBox.Show("Por favor introduzca números");
+            }
         }
 
         private void FormularioFibonacci_Load(object sender, EventArgs e)

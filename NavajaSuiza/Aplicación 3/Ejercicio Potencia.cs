@@ -53,14 +53,16 @@ namespace NavajaSuiza.Aplicacion_3
         private void button1_Click(object sender, EventArgs e)
         {
             int numero, exponente, resultado;
-          
-            try
-            {
-                numero = int.Parse(TextBoxNumero.Text);
-                exponente = int.Parse(textBox2.Text);
+            bool correcto1, correcto2;
+           
+                correcto1 = int.TryParse(TextBoxNumero.Text, out numero);
+                correcto2 = int.TryParse(textBox2.Text, out exponente);
 
                 resultado = potenciapro(numero, exponente);
+              
 
+            if (correcto1 && correcto2)
+            {
                 if (resultado == 0)
                 {
                     MessageBox.Show("Número incorrecto");
@@ -68,13 +70,12 @@ namespace NavajaSuiza.Aplicacion_3
                 else
                 {
                     MessageBox.Show("El resultado es " + resultado);
-                }              
+                }
             }
-            catch 
+            else
             {
-                MessageBox.Show("Error introduzca numeros");
+                MessageBox.Show("Números incorrectos");
             }
-           
         }
     }
 }

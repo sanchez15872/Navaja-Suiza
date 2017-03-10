@@ -54,13 +54,15 @@ namespace NavajaSuiza.Aplicacion_2
         /// <param name="e">Si uso</param>
         private void button1_Click(object sender, EventArgs e)
         {
-           int numero, factorial;  
+           int numero, factorial;
+           bool correcto1;
                                         
-            try
-            {
-                numero = int.Parse(textBox1.Text);
+           
+                correcto1 = int.TryParse(textBox1.Text, out numero);
                 factorial = CalcularFactorial(numero);
 
+            if (correcto1)
+            {
                 if (factorial == 0)
                 {
                     MessageBox.Show("El programa no permite números tan grandes");
@@ -70,10 +72,11 @@ namespace NavajaSuiza.Aplicacion_2
                     MessageBox.Show("El factorial de " + numero + " es " + factorial);
                 }
             }
-            catch 
+            else
             {
-                MessageBox.Show("Caracteres incorrectos");
-            }                                                 
+                MessageBox.Show("Introduzca un número");
+            }   
+                                                              
         }
 
         private void Form1_Load(object sender, EventArgs e)
