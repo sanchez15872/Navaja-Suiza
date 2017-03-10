@@ -55,13 +55,12 @@ namespace NavajaSuiza.Aplicacion_2
         private void button1_Click(object sender, EventArgs e)
         {
            int numero, factorial;  
-                     
-            numero = int.Parse(textBox1.Text);
-
-            factorial = CalcularFactorial(numero);
-
+                                        
             try
             {
+                numero = int.Parse(textBox1.Text);
+                factorial = CalcularFactorial(numero);
+
                 if (factorial == 0)
                 {
                     MessageBox.Show("El programa no permite números tan grandes");

@@ -61,7 +61,14 @@ namespace NavajaSuiza.Aplicacion_3
 
                 resultado = potenciapro(numero, exponente);
 
-                MessageBox.Show("El resultado es " + resultado);
+                if (resultado == 0)
+                {
+                    MessageBox.Show("Número incorrecto");
+                }
+                else
+                {
+                    MessageBox.Show("El resultado es " + resultado);
+                }              
             }
             catch 
             {

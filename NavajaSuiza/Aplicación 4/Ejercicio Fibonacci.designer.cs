@@ -75,6 +75,7 @@ namespace NavajaSuiza.Aplicacion_4
             this.Controls.Add(this.textBox1);
             this.Name = "FormularioFibonacci";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormularioFibonacci_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

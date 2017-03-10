@@ -79,5 +79,10 @@ namespace NavajaSuiza.Aplicacion_4
                 MessageBox.Show("Por Favor, introduzca números");
             }         
         }
+
+        private void FormularioFibonacci_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
