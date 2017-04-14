@@ -8,10 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Espacio de nombres de la Aplicación 3
-/// </summary>
-namespace NavajaSuiza.Aplicacion_3
+namespace NavajaSuiza.Aplicacion3
 {
     /// <summary>
     /// Clase pública del FormularioPotencia
@@ -32,7 +29,7 @@ namespace NavajaSuiza.Aplicacion_3
         /// <param name="numero">Parámetro que indica la base de la potencia</param>
         /// <param name="exponente">Parámetro que indica el exponente de la potencia</param>
         /// <returns>Nos devuelve la potencia calculada a partir del numero y el exponente.</returns>
-         int potenciapro(int numero, int exponente)
+         int PotenciaPro(int numero, int exponente)
          {
             int resultado = 1;
 
@@ -50,15 +47,17 @@ namespace NavajaSuiza.Aplicacion_3
         /// <remarks>En caso de no escribir números nos devolverá un mensaje de error</remarks>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void BotonPotencia_Click(object sender, EventArgs e)
         {
             int numero, exponente, resultado;
             bool correcto1, correcto2;
-           
+
+                numero = 0;
+                exponente = 0;
                 correcto1 = int.TryParse(TextBoxNumero.Text, out numero);
                 correcto2 = int.TryParse(textBox2.Text, out exponente);
 
-                resultado = potenciapro(numero, exponente);
+                resultado = PotenciaPro(numero, exponente);
               
 
             if (correcto1 && correcto2)

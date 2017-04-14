@@ -8,9 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Espacio de nombres de la Aplicación 1
-/// </summary>
 namespace NavajaSuiza.Aplicacion1
 {
     /// <summary>
@@ -81,9 +78,13 @@ namespace NavajaSuiza.Aplicacion1
         /// <remarks>En caso de no pasar todos los datos o no poner los caracteres correctos dará un mensaje de error.</remarks>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void BotonHora_Click(object sender, EventArgs e)
         {                 
             int horas, minutos, segundos;
+
+            horas = 0;
+            minutos = 0;
+            segundos = 0;
 
             try
             {

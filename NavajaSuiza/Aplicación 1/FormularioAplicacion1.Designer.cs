@@ -1,12 +1,12 @@
 ﻿/// <summary>
 /// Espacio de nombres de la Aplicación 1
 /// </summary>
-namespace NavajaSuiza.Aplicación_1
+namespace NavajaSuiza.Aplicacion1
 {
     /// <summary>
     /// Partial class frmAplicacion1
     /// </summary>
-    partial class frmAplicacion1
+    partial class FormularioAplicacion1
     {
         /// <summary>
         /// Required designer variable.

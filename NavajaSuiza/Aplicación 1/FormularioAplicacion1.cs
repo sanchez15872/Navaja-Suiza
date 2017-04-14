@@ -8,31 +8,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Espacio de nombres del Formulario 3
-/// </summary>
-namespace NavajaSuiza.Aplicacion3
+namespace NavajaSuiza.Aplicacion1
 {
     /// <summary>
-    /// Clase pública del formulario que te llevará a la aplicación 3.
+    /// Clase Pública del formulario que te llevará a la aplicación 1.
     /// </summary>
-    public partial class frmAplicacion3 : Form
-    {
+    public partial class FormularioAplicacion1 : Form
+    {            
         /// <summary>
-        /// Constructor del formulario que te llevará a la aplicación 3.
+        /// Constructor del formulario que te llevará a la aplicación 1.
         /// </summary>
-        public frmAplicacion3()
+        public FormularioAplicacion1()
         {
             InitializeComponent();
         }
+
         /// <summary>
-        /// Este Botón nos devolverá la aplicación 3.
+        /// Este Botón nos devolverá la aplicación 1.
         /// </summary>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
         private void button1_Click(object sender, EventArgs e)
         {
-            NavajaSuiza.Aplicacion_3.FormularioPotencia Formulario = new NavajaSuiza.Aplicacion_3.FormularioPotencia(); 
+            NavajaSuiza.Aplicacion1.FormularioHora Formulario = new NavajaSuiza.Aplicacion1.FormularioHora();
             Formulario.ShowDialog();
         }
     }

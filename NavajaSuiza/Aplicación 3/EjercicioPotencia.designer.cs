@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Espacio de nombres de la Aplicación 3
 /// </summary>
-namespace NavajaSuiza.Aplicacion_3
+namespace NavajaSuiza.Aplicacion3
 {
     /// <summary>
     /// Partial class FormularioPotencia
@@ -81,7 +81,7 @@ namespace NavajaSuiza.Aplicacion_3
             this.button1.TabIndex = 4;
             this.button1.Text = "Resultado";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.BotonPotencia_Click);
             // 
             // FormularioPotencia
             // 

@@ -8,10 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Espacio de nombres de la Aplicación 2
-/// </summary>
-namespace NavajaSuiza.Aplicacion_2
+namespace NavajaSuiza.Aplicacion2
 {
    /// <summary>
    /// Clase pública del FormularioFactorial.
@@ -56,8 +53,8 @@ namespace NavajaSuiza.Aplicacion_2
         {
            int numero, factorial;
            bool correcto1;
-                                        
-           
+
+                numero = 0;
                 correcto1 = int.TryParse(textBox1.Text, out numero);
                 factorial = CalcularFactorial(numero);
 

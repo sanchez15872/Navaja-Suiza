@@ -8,20 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Espacio de nombres de NavajaSuiza
-/// </summary>
 namespace NavajaSuiza
 {
     /// <summary>
     /// Clase pública del Formulario Main.
     /// </summary>
-    public partial class frmMain : Form
+    public partial class FormularioMain : Form
     {
         /// <summary>
         /// Constructor del formulario Main.
         /// </summary>
-        public frmMain()
+        public FormularioMain()
         {
             InitializeComponent();
         }
@@ -32,9 +29,9 @@ namespace NavajaSuiza
         /// </summary>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void Boton1_Click(object sender, EventArgs e)
         {
-            Aplicación_1.frmAplicacion1 Llamada = new Aplicación_1.frmAplicacion1();
+            Aplicacion1.FormularioAplicacion1 Llamada = new Aplicacion1.FormularioAplicacion1();
             Llamada.ShowDialog();
                   
          }
@@ -43,7 +40,7 @@ namespace NavajaSuiza
         /// </summary>
         /// <param name="sender">Lanza el evento del frmMain_Load/param>
         /// <param name="e">sin uso</param>
-        private void frmMain_Load(object sender, EventArgs e)
+        private void FormularioMain_Load(object sender, EventArgs e)
         {
 
         }
@@ -61,9 +58,9 @@ namespace NavajaSuiza
         /// </summary>
         /// <param name="sender">Lanza el evento del button4</param>
         /// <param name="e">Si uso</param>
-        private void button4_Click(object sender, EventArgs e)
+        private void Boton2_Click(object sender, EventArgs e)
         {
-            Aplicación2.frmAplicacion2 Llamada = new Aplicación2.frmAplicacion2();
+            Aplicacion2.FormularioAplicacion2 Llamada = new Aplicacion2.FormularioAplicacion2();
             Llamada.ShowDialog();
 
         }
@@ -72,9 +69,9 @@ namespace NavajaSuiza
         /// </summary>
         /// <param name="sender">Lanza el evento del button3</param>
         /// <param name="e">Si uso</param>
-        private void button3_Click(object sender, EventArgs e)
+        private void Boton3_Click(object sender, EventArgs e)
         {
-            Aplicacion3.frmAplicacion3 Llamada = new Aplicacion3.frmAplicacion3();
+            Aplicacion3.FormularioAplicacion4 Llamada = new Aplicacion3.FormularioAplicacion4();
             Llamada.ShowDialog();
         }
         /// <summary>
@@ -82,9 +79,9 @@ namespace NavajaSuiza
         /// </summary>
         /// <param name="sender">Lanza el evento del button2 </param>
         /// <param name="e">Si uso</param>
-        private void button2_Click(object sender, EventArgs e)
+        private void Boton4_Click(object sender, EventArgs e)
         {
-            Aplicacion4.frmAplicacion4 Llamada = new Aplicacion4.frmAplicacion4();
+            Aplicacion4.FormularioAplicacion4 Llamada = new Aplicacion4.FormularioAplicacion4();
             Llamada.ShowDialog();
         }
     }

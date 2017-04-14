@@ -47,88 +47,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aplicación 1\Ejercicio Hora.cs">
+    <Compile Include="Aplicación 1\EjercicioHora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 1\Ejercicio Hora.designer.cs">
-      <DependentUpon>Ejercicio Hora.cs</DependentUpon>
+    <Compile Include="Aplicación 1\EjercicioHora.designer.cs">
+      <DependentUpon>EjercicioHora.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 1\frmAplicacion1.cs">
+    <Compile Include="Aplicación 1\FormularioAplicacion1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 1\frmAplicacion1.Designer.cs">
-      <DependentUpon>frmAplicacion1.cs</DependentUpon>
+    <Compile Include="Aplicación 1\FormularioAplicacion1.Designer.cs">
+      <DependentUpon>FormularioAplicacion1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 2\Ejercicio Factorial.cs">
+    <Compile Include="Aplicación 2\EjercicioFactorial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 2\Ejercicio Factorial.designer.cs">
-      <DependentUpon>Ejercicio Factorial.cs</DependentUpon>
+    <Compile Include="Aplicación 2\EjercicioFactorial.designer.cs">
+      <DependentUpon>EjercicioFactorial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 2\frmAplicacion2.cs">
+    <Compile Include="Aplicación 2\FormularioAplicacion2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 2\frmAplicacion2.Designer.cs">
-      <DependentUpon>frmAplicacion2.cs</DependentUpon>
+    <Compile Include="Aplicación 2\FormularioAplicacion2.Designer.cs">
+      <DependentUpon>FormularioAplicacion2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 3\Ejercicio Potencia.cs">
+    <Compile Include="Aplicación 3\EjercicioPotencia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 3\Ejercicio Potencia.designer.cs">
-      <DependentUpon>Ejercicio Potencia.cs</DependentUpon>
+    <Compile Include="Aplicación 3\EjercicioPotencia.designer.cs">
+      <DependentUpon>EjercicioPotencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 3\frmAplicacion3.cs">
+    <Compile Include="Aplicación 3\FormularioAplicacion3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 3\frmAplicacion3.Designer.cs">
-      <DependentUpon>frmAplicacion3.cs</DependentUpon>
+    <Compile Include="Aplicación 3\FormularioAplicacion3.Designer.cs">
+      <DependentUpon>FormularioAplicacion3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 4\Ejercicio Fibonacci.cs">
+    <Compile Include="Aplicación 4\EjercicioFibonacci.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 4\Ejercicio Fibonacci.designer.cs">
-      <DependentUpon>Ejercicio Fibonacci.cs</DependentUpon>
+    <Compile Include="Aplicación 4\EjercicioFibonacci.designer.cs">
+      <DependentUpon>EjercicioFibonacci.cs</DependentUpon>
     </Compile>
-    <Compile Include="Aplicación 4\frmAplicacion4.cs">
+    <Compile Include="Aplicación 4\FormularioAplicacion4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Aplicación 4\frmAplicacion4.Designer.cs">
-      <DependentUpon>frmAplicacion4.cs</DependentUpon>
+    <Compile Include="Aplicación 4\FormularioAplicacion4.Designer.cs">
+      <DependentUpon>FormularioAplicacion4.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMain.cs">
+    <Compile Include="FormularioMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <Compile Include="FormularioMain.Designer.cs">
+      <DependentUpon>FormularioMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Aplicación 1\Ejercicio Hora.resx">
-      <DependentUpon>Ejercicio Hora.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 1\EjercicioHora.resx">
+      <DependentUpon>EjercicioHora.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 1\frmAplicacion1.resx">
-      <DependentUpon>frmAplicacion1.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 1\FormularioAplicacion1.resx">
+      <DependentUpon>FormularioAplicacion1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 2\Ejercicio Factorial.resx">
-      <DependentUpon>Ejercicio Factorial.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 2\EjercicioFactorial.resx">
+      <DependentUpon>EjercicioFactorial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 2\frmAplicacion2.resx">
-      <DependentUpon>frmAplicacion2.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 2\FormularioAplicacion2.resx">
+      <DependentUpon>FormularioAplicacion2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 3\Ejercicio Potencia.resx">
-      <DependentUpon>Ejercicio Potencia.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 3\EjercicioPotencia.resx">
+      <DependentUpon>EjercicioPotencia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 3\frmAplicacion3.resx">
-      <DependentUpon>frmAplicacion3.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 3\FormularioAplicacion3.resx">
+      <DependentUpon>FormularioAplicacion3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 4\Ejercicio Fibonacci.resx">
-      <DependentUpon>Ejercicio Fibonacci.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 4\EjercicioFibonacci.resx">
+      <DependentUpon>EjercicioFibonacci.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Aplicación 4\frmAplicacion4.resx">
-      <DependentUpon>frmAplicacion4.cs</DependentUpon>
+    <EmbeddedResource Include="Aplicación 4\FormularioAplicacion4.resx">
+      <DependentUpon>FormularioAplicacion4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <EmbeddedResource Include="FormularioMain.resx">
+      <DependentUpon>FormularioMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -139,6 +139,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Documentación\Documentación de Navaja Suiza\Casos de Prueba.xls" />
+    <None Include="Documentación\Documentación de Navaja Suiza\Help\Documentación.chm" />
+    <None Include="Documentación\Documentación de Navaja Suiza\Help\Documentación.chw" />
+    <None Include="Documentación\Documentación de Navaja Suiza\Help\LastBuild.log" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,7 +156,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Documentación\Documentación de Navaja Suiza\Documentación NavajaSuiza.shfbproj" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Espacio de nombres de la Aplicación 2
 /// </summary>
-namespace NavajaSuiza.Aplicacion_2
+namespace NavajaSuiza.Aplicacion2
 {
     /// <summary>
     /// Partial class FormularioFactorial

@@ -8,10 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Espacio de nombres de la Aplicación 4
-/// </summary>
-namespace NavajaSuiza.Aplicacion_4
+namespace NavajaSuiza.Aplicacion4
 {
     /// <summary>
     /// Clase pública del FormularioFibonacci

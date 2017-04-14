@@ -8,20 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Espacio de nombres del Formulario 4
-/// </summary>
 namespace NavajaSuiza.Aplicacion4
 {
     /// <summary>
     /// Clase pública del formulario que te llevará a la aplicación 4.
     /// </summary>
-    public partial class frmAplicacion4 : Form
+    public partial class FormularioAplicacion4 : Form
     {
         /// <summary>
         /// Constructor del formulario que te llevará a la aplicación 4.
         /// </summary>
-        public frmAplicacion4()
+        public FormularioAplicacion4()
         {
             InitializeComponent();
         }
@@ -32,7 +29,7 @@ namespace NavajaSuiza.Aplicacion4
         /// <param name="e">Si uso</param>
         private void button1_Click(object sender, EventArgs e)
         {
-            NavajaSuiza.Aplicacion_4.FormularioFibonacci Formulario = new NavajaSuiza.Aplicacion_4.FormularioFibonacci();
+            NavajaSuiza.Aplicacion4.FormularioFibonacci Formulario = new NavajaSuiza.Aplicacion4.FormularioFibonacci();
             Formulario.ShowDialog();
         }
     }

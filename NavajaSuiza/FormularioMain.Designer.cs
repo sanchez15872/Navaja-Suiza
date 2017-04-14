@@ -6,7 +6,7 @@ namespace NavajaSuiza
     /// <summary>
     /// clase frmMain
     /// </summary>
-    partial class frmMain
+    partial class FormularioMain
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -34,7 +34,7 @@ namespace NavajaSuiza
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormularioMain));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -62,7 +62,7 @@ namespace NavajaSuiza
             this.button1.TabIndex = 1;
             this.button1.Text = "Aplicación 1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Boton1_Click);
             // 
             // button2
             // 
@@ -72,7 +72,7 @@ namespace NavajaSuiza
             this.button2.TabIndex = 2;
             this.button2.Text = "Aplicación 4";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Boton4_Click);
             // 
             // button3
             // 
@@ -82,7 +82,7 @@ namespace NavajaSuiza
             this.button3.TabIndex = 3;
             this.button3.Text = "Aplicación 3";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.Boton3_Click);
             // 
             // button4
             // 
@@ -92,7 +92,7 @@ namespace NavajaSuiza
             this.button4.TabIndex = 4;
             this.button4.Text = "Aplicación 2";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.Boton2_Click);
             // 
             // frmMain
             // 
@@ -106,7 +106,7 @@ namespace NavajaSuiza
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmMain";
             this.Text = "Navaja Suiza";
-            this.Load += new System.EventHandler(this.frmMain_Load);
+            this.Load += new System.EventHandler(this.FormularioMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
