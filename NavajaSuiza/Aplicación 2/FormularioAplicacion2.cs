@@ -27,7 +27,7 @@ namespace NavajaSuiza.Aplicacion2
         /// </summary>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void Boton1_Click(object sender, EventArgs e)
         {
             NavajaSuiza.Aplicacion2.FormularioFactorial Formulario = new NavajaSuiza.Aplicacion2.FormularioFactorial();
             Formulario.ShowDialog();

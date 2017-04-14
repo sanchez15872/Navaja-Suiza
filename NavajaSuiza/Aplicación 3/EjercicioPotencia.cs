@@ -55,7 +55,7 @@ namespace NavajaSuiza.Aplicacion3
                 numero = 0;
                 exponente = 0;
                 correcto1 = int.TryParse(TextBoxNumero.Text, out numero);
-                correcto2 = int.TryParse(textBox2.Text, out exponente);
+                correcto2 = int.TryParse(TextBoxPotencia.Text, out exponente);
 
                 resultado = PotenciaPro(numero, exponente);
               

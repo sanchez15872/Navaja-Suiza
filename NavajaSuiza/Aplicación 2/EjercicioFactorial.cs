@@ -49,13 +49,13 @@ namespace NavajaSuiza.Aplicacion2
         /// <remarks>Si escribes caracteres incorrectos nos mostrará un alerta de ello con un MessageBox.</remarks>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void BotonCalcular_Click(object sender, EventArgs e)
         {
            int numero, factorial;
            bool correcto1;
 
                 numero = 0;
-                correcto1 = int.TryParse(textBox1.Text, out numero);
+                correcto1 = int.TryParse(TextBoxFactorial.Text, out numero);
                 factorial = CalcularFactorial(numero);
 
             if (correcto1)

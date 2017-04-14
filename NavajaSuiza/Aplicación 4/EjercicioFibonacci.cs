@@ -66,7 +66,7 @@ namespace NavajaSuiza.Aplicacion4
             bool correcto1;
             
 
-            correcto1 = int.TryParse(textBox1.Text, out numero);
+            correcto1 = int.TryParse(TextBoxFibonacci.Text, out numero);
             texto = CalcularFibonacci(numero);
               
             if (correcto1)

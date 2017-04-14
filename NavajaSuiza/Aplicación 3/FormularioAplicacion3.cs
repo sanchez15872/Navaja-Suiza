@@ -27,7 +27,7 @@ namespace NavajaSuiza.Aplicacion3
         /// </summary>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void Boton1_Click(object sender, EventArgs e)
         {
             NavajaSuiza.Aplicacion3.FormularioPotencia Formulario = new NavajaSuiza.Aplicacion3.FormularioPotencia(); 
             Formulario.ShowDialog();

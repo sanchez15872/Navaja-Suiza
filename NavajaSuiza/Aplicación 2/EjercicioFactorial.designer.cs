@@ -34,47 +34,47 @@ namespace NavajaSuiza.Aplicacion2
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.TextBoxFactorial = new System.Windows.Forms.TextBox();
+            this.Boton1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(34, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Número";
+            this.Label1.AutoSize = true;
+            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(34, 90);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(62, 18);
+            this.Label1.TabIndex = 0;
+            this.Label1.Text = "Número";
             // 
-            // textBox1
+            // TextBoxFactorial
             // 
-            this.textBox1.Location = new System.Drawing.Point(140, 90);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 20);
-            this.textBox1.TabIndex = 1;
+            this.TextBoxFactorial.Location = new System.Drawing.Point(140, 90);
+            this.TextBoxFactorial.Name = "TextBoxFactorial";
+            this.TextBoxFactorial.Size = new System.Drawing.Size(183, 20);
+            this.TextBoxFactorial.TabIndex = 1;
             // 
-            // button1
+            // Boton1
             // 
-            this.button1.Location = new System.Drawing.Point(213, 153);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Calcular factorial";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Boton1.Location = new System.Drawing.Point(213, 153);
+            this.Boton1.Name = "Boton1";
+            this.Boton1.Size = new System.Drawing.Size(110, 23);
+            this.Boton1.TabIndex = 2;
+            this.Boton1.Text = "Calcular factorial";
+            this.Boton1.UseVisualStyleBackColor = true;
+            this.Boton1.Click += new System.EventHandler(this.BotonCalcular_Click);
             // 
-            // Form1
+            // FormularioFactorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(420, 261);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Controls.Add(this.Boton1);
+            this.Controls.Add(this.TextBoxFactorial);
+            this.Controls.Add(this.Label1);
+            this.Name = "FormularioFactorial";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -84,9 +84,9 @@ namespace NavajaSuiza.Aplicacion2
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Label1;
+        private System.Windows.Forms.TextBox TextBoxFactorial;
+        private System.Windows.Forms.Button Boton1;
     }
 }
 

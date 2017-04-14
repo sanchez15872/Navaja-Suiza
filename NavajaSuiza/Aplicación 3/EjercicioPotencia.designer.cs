@@ -34,21 +34,21 @@ namespace NavajaSuiza.Aplicacion3
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.Label1 = new System.Windows.Forms.Label();
             this.TextBoxNumero = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Label2 = new System.Windows.Forms.Label();
+            this.TextBoxPotencia = new System.Windows.Forms.TextBox();
+            this.BotonCalcular = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Número";
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(60, 58);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(44, 13);
+            this.Label1.TabIndex = 0;
+            this.Label1.Text = "Número";
             // 
             // TextBoxNumero
             // 
@@ -57,42 +57,42 @@ namespace NavajaSuiza.Aplicacion3
             this.TextBoxNumero.Size = new System.Drawing.Size(100, 20);
             this.TextBoxNumero.TabIndex = 1;
             // 
-            // label2
+            // Label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 126);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Potencia";
+            this.Label2.AutoSize = true;
+            this.Label2.Location = new System.Drawing.Point(60, 126);
+            this.Label2.Name = "Label2";
+            this.Label2.Size = new System.Drawing.Size(49, 13);
+            this.Label2.TabIndex = 2;
+            this.Label2.Text = "Potencia";
             // 
-            // textBox2
+            // TextBoxPotencia
             // 
-            this.textBox2.Location = new System.Drawing.Point(149, 126);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.TextBoxPotencia.Location = new System.Drawing.Point(149, 126);
+            this.TextBoxPotencia.Name = "TextBoxPotencia";
+            this.TextBoxPotencia.Size = new System.Drawing.Size(100, 20);
+            this.TextBoxPotencia.TabIndex = 3;
             // 
-            // button1
+            // BotonCalcular
             // 
-            this.button1.Location = new System.Drawing.Point(149, 196);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Resultado";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.BotonPotencia_Click);
+            this.BotonCalcular.Location = new System.Drawing.Point(149, 196);
+            this.BotonCalcular.Name = "BotonCalcular";
+            this.BotonCalcular.Size = new System.Drawing.Size(100, 23);
+            this.BotonCalcular.TabIndex = 4;
+            this.BotonCalcular.Text = "Resultado";
+            this.BotonCalcular.UseVisualStyleBackColor = true;
+            this.BotonCalcular.Click += new System.EventHandler(this.BotonPotencia_Click);
             // 
             // FormularioPotencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.BotonCalcular);
+            this.Controls.Add(this.TextBoxPotencia);
+            this.Controls.Add(this.Label2);
             this.Controls.Add(this.TextBoxNumero);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Label1);
             this.Name = "FormularioPotencia";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -102,11 +102,11 @@ namespace NavajaSuiza.Aplicacion3
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.TextBox TextBoxNumero;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Label2;
+        private System.Windows.Forms.TextBox TextBoxPotencia;
+        private System.Windows.Forms.Button BotonCalcular;
     }
 }
 
