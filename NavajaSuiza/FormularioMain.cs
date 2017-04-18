@@ -38,7 +38,7 @@ namespace NavajaSuiza
         /// <summary>
         /// No hay código que comentar
         /// </summary>
-        /// <param name="sender">Lanza el evento del frmMain_Load/param>
+        /// <param name="sender">Lanza el evento del frmMain_Load</param>
         /// <param name="e">sin uso</param>
         private void FormularioMain_Load(object sender, EventArgs e)
         {

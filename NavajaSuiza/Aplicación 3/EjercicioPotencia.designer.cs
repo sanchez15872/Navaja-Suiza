@@ -1,6 +1,4 @@
-﻿/// <summary>
-/// Espacio de nombres de la Aplicación 3
-/// </summary>
+﻿
 namespace NavajaSuiza.Aplicacion3
 {
     /// <summary>

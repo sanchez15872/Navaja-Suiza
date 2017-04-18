@@ -29,7 +29,7 @@ namespace NavajaSuiza.Aplicacion3
         /// <param name="numero">Parámetro que indica la base de la potencia</param>
         /// <param name="exponente">Parámetro que indica el exponente de la potencia</param>
         /// <returns>Nos devuelve la potencia calculada a partir del numero y el exponente.</returns>
-         int PotenciaPro(int numero, int exponente)
+         int PotenciaCalculada(int numero, int exponente)
          {
             int resultado = 1;
 
@@ -57,7 +57,7 @@ namespace NavajaSuiza.Aplicacion3
                 correcto1 = int.TryParse(TextBoxNumero.Text, out numero);
                 correcto2 = int.TryParse(TextBoxPotencia.Text, out exponente);
 
-                resultado = PotenciaPro(numero, exponente);
+                resultado = PotenciaCalculada(numero, exponente);
               
 
             if (correcto1 && correcto2)
@@ -73,7 +73,7 @@ namespace NavajaSuiza.Aplicacion3
             }
             else
             {
-                MessageBox.Show("Números incorrectos");
+                MessageBox.Show("Error");
             }
         }
     }

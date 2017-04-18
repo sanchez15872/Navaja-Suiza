@@ -1,6 +1,4 @@
-﻿/// <summary>
-/// Namespace del frmMain
-/// </summary>
+﻿
 namespace NavajaSuiza
 {
     /// <summary>

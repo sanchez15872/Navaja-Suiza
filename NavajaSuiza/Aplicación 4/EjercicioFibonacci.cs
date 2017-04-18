@@ -59,19 +59,27 @@ namespace NavajaSuiza.Aplicacion4
         /// <remarks>En caso de no poner números nos dará un error que nos dirá que introduzcamos números</remarks>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void BotonCalcular_Click(object sender, EventArgs e)
         {
             int numero;
             string texto;
             bool correcto1;
-            
 
+            numero = 0;
             correcto1 = int.TryParse(TextBoxFibonacci.Text, out numero);
             texto = CalcularFibonacci(numero);
               
             if (correcto1)
             {
-                MessageBox.Show(texto);
+                if (numero <= 0)
+                {
+                    MessageBox.Show("Por favor introduzca numeros mayores que 0");
+                }
+                else
+                {
+                    MessageBox.Show(texto);
+                }
+                
             }
             else
             {

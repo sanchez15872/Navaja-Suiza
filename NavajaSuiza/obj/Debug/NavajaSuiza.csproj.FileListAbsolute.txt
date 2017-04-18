@@ -54,8 +54,6 @@ E:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debu
 E:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.pdb
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.csprojResolveAssemblyReference.cache
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion1.FormularioHora.resources
-G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion3.frmAplicacion3.resources
-G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion4.frmAplicacion4.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.FormularioMain.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Properties.Resources.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.csproj.GenerateResource.Cache
@@ -63,6 +61,8 @@ G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\bin\Debu
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\bin\Debug\NavajaSuiza.pdb
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion1.FormularioAplicacion1.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion2.FormularioFactorial.resources
-G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion2.frmAplicacion2.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion3.FormularioPotencia.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion4.FormularioFibonacci.resources
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion2.FormularioAplicacion2.resources
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion3.FormularioAplicacion4.resources
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion4.FormularioAplicacion4.resources

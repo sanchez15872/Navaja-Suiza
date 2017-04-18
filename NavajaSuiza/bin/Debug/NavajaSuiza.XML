@@ -68,7 +68,7 @@
             Constructor del formulario que te llevará a la aplicación 1.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion1.FormularioAplicacion1.button1_Click(System.Object,System.EventArgs)">
+        <member name="M:NavajaSuiza.Aplicacion1.FormularioAplicacion1.Boton1_Click(System.Object,System.EventArgs)">
             <summary>
             Este Botón nos devolverá la aplicación 1.
             </summary>
@@ -112,7 +112,7 @@
             <param name="numero">El numero que introducimos por TextBox del que calcularemos su factorial.</param>
             <returns>Devolvemos el factorial del número.</returns>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion2.FormularioFactorial.button1_Click(System.Object,System.EventArgs)">
+        <member name="M:NavajaSuiza.Aplicacion2.FormularioFactorial.BotonCalcular_Click(System.Object,System.EventArgs)">
             <summary>
             En este botón pasamos el numero por un TextBox y mediante la funcion CalcularFactorial obtenemos
             un MessageBox diciendo el factorial de un número.
@@ -140,7 +140,7 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
-        <member name="T:NavajaSuiza.Aplicacion2.frmAplicacion2">
+        <member name="T:NavajaSuiza.Aplicacion2.FormularioAplicacion2">
             <summary>
             Clase publica del formulario que te llevará a la aplicación 2.
             </summary>
@@ -148,30 +148,30 @@
             partial class frmAplicacion2
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion2.frmAplicacion2.#ctor">
+        <member name="M:NavajaSuiza.Aplicacion2.FormularioAplicacion2.#ctor">
             <summary>
             Constructor del formulario que te llevará a la aplicación 2.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion2.frmAplicacion2.button1_Click(System.Object,System.EventArgs)">
+        <member name="M:NavajaSuiza.Aplicacion2.FormularioAplicacion2.Boton1_Click(System.Object,System.EventArgs)">
             <summary>
             Este Botón nos devolverá la aplicación 2.
             </summary>
             <param name="sender">Lanza el evento del button1</param>
             <param name="e">Si uso</param>
         </member>
-        <member name="F:NavajaSuiza.Aplicacion2.frmAplicacion2.components">
+        <member name="F:NavajaSuiza.Aplicacion2.FormularioAplicacion2.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion2.frmAplicacion2.Dispose(System.Boolean)">
+        <member name="M:NavajaSuiza.Aplicacion2.FormularioAplicacion2.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion2.frmAplicacion2.InitializeComponent">
+        <member name="M:NavajaSuiza.Aplicacion2.FormularioAplicacion2.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -190,7 +190,7 @@
             Constructor pública del FormularioPotencia
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion3.FormularioPotencia.PotenciaPro(System.Int32,System.Int32)">
+        <member name="M:NavajaSuiza.Aplicacion3.FormularioPotencia.PotenciaCalculada(System.Int32,System.Int32)">
             <summary>
             La función calcula una potencia, le devolvemos un número y un exponente y este nos devuelve la potencia.
             </summary>
@@ -225,7 +225,7 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
-        <member name="T:NavajaSuiza.Aplicacion3.frmAplicacion3">
+        <member name="T:NavajaSuiza.Aplicacion3.FormularioAplicacion4">
             <summary>
             Clase pública del formulario que te llevará a la aplicación 3.
             </summary>
@@ -233,30 +233,30 @@
             partial class de frmAplicacion3
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion3.frmAplicacion3.#ctor">
+        <member name="M:NavajaSuiza.Aplicacion3.FormularioAplicacion4.#ctor">
             <summary>
             Constructor del formulario que te llevará a la aplicación 3.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion3.frmAplicacion3.button1_Click(System.Object,System.EventArgs)">
+        <member name="M:NavajaSuiza.Aplicacion3.FormularioAplicacion4.Boton1_Click(System.Object,System.EventArgs)">
             <summary>
             Este Botón nos devolverá la aplicación 3.
             </summary>
             <param name="sender">Lanza el evento del button1</param>
             <param name="e">Si uso</param>
         </member>
-        <member name="F:NavajaSuiza.Aplicacion3.frmAplicacion3.components">
+        <member name="F:NavajaSuiza.Aplicacion3.FormularioAplicacion4.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion3.frmAplicacion3.Dispose(System.Boolean)">
+        <member name="M:NavajaSuiza.Aplicacion3.FormularioAplicacion4.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion3.frmAplicacion3.InitializeComponent">
+        <member name="M:NavajaSuiza.Aplicacion3.FormularioAplicacion4.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -284,7 +284,7 @@
             <param name="numero">el numero que nos indica hasta donde debe llegar la sucesión</param>
             <returns>Devuelve una cadena de texto con la sucesión de fibonacci</returns>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion4.FormularioFibonacci.button1_Click(System.Object,System.EventArgs)">
+        <member name="M:NavajaSuiza.Aplicacion4.FormularioFibonacci.BotonCalcular_Click(System.Object,System.EventArgs)">
             <summary>
             Muestra el resultado de la funcion CalcularFibonacci mediante un MessageBox
             pasándole el número en un TextBox.
@@ -310,7 +310,7 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
-        <member name="T:NavajaSuiza.Aplicacion4.frmAplicacion4">
+        <member name="T:NavajaSuiza.Aplicacion4.FormularioAplicacion4">
             <summary>
             Clase pública del formulario que te llevará a la aplicación 4.
             </summary>
@@ -318,30 +318,30 @@
             Partial class frmAplicacion4
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion4.frmAplicacion4.#ctor">
+        <member name="M:NavajaSuiza.Aplicacion4.FormularioAplicacion4.#ctor">
             <summary>
             Constructor del formulario que te llevará a la aplicación 4.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion4.frmAplicacion4.button1_Click(System.Object,System.EventArgs)">
+        <member name="M:NavajaSuiza.Aplicacion4.FormularioAplicacion4.button1_Click(System.Object,System.EventArgs)">
             <summary>
             Este Botón nos devolverá la aplicación 4.
             </summary>
             <param name="sender">Lanza el evento del button1</param>
             <param name="e">Si uso</param>
         </member>
-        <member name="F:NavajaSuiza.Aplicacion4.frmAplicacion4.components">
+        <member name="F:NavajaSuiza.Aplicacion4.FormularioAplicacion4.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion4.frmAplicacion4.Dispose(System.Boolean)">
+        <member name="M:NavajaSuiza.Aplicacion4.FormularioAplicacion4.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion4.frmAplicacion4.InitializeComponent">
+        <member name="M:NavajaSuiza.Aplicacion4.FormularioAplicacion4.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -367,7 +367,13 @@
             <param name="sender">Lanza el evento del button1</param>
             <param name="e">Si uso</param>
         </member>
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:NavajaSuiza.FormularioMain.FormularioMain_Load(System.Object,System.EventArgs)" -->
+        <member name="M:NavajaSuiza.FormularioMain.FormularioMain_Load(System.Object,System.EventArgs)">
+            <summary>
+            No hay código que comentar
+            </summary>
+            <param name="sender">Lanza el evento del frmMain_Load</param>
+            <param name="e">sin uso</param>
+        </member>
         <member name="M:NavajaSuiza.FormularioMain.pictureBox1_Click(System.Object,System.EventArgs)">
             <summary>
             No hay código que comentar

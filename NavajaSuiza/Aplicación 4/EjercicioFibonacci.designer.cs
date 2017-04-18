@@ -1,6 +1,4 @@
-﻿/// <summary>
-/// Espacio de nombres de la Aplicación 4
-/// </summary>
+﻿
 namespace NavajaSuiza.Aplicacion4
 {
     /// <summary>
@@ -54,7 +52,7 @@ namespace NavajaSuiza.Aplicacion4
             this.BotonCalcular.TabIndex = 1;
             this.BotonCalcular.Text = "Mostrar Fibonacci";
             this.BotonCalcular.UseVisualStyleBackColor = true;
-            this.BotonCalcular.Click += new System.EventHandler(this.button1_Click);
+            this.BotonCalcular.Click += new System.EventHandler(this.BotonCalcular_Click);
             // 
             // Label1
             // 
