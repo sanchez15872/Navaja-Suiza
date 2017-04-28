@@ -54,6 +54,7 @@ namespace NavajaSuiza.Aplicacion1
             // Horas
             // 
             this.Horas.Location = new System.Drawing.Point(276, 55);
+            this.Horas.MaxLength = 2;
             this.Horas.Name = "Horas";
             this.Horas.Size = new System.Drawing.Size(100, 20);
             this.Horas.TabIndex = 1;
@@ -61,6 +62,7 @@ namespace NavajaSuiza.Aplicacion1
             // Minutos
             // 
             this.Minutos.Location = new System.Drawing.Point(277, 97);
+            this.Minutos.MaxLength = 2;
             this.Minutos.Name = "Minutos";
             this.Minutos.Size = new System.Drawing.Size(100, 20);
             this.Minutos.TabIndex = 2;
@@ -68,6 +70,7 @@ namespace NavajaSuiza.Aplicacion1
             // Segundos
             // 
             this.Segundos.Location = new System.Drawing.Point(277, 145);
+            this.Segundos.MaxLength = 2;
             this.Segundos.Name = "Segundos";
             this.Segundos.Size = new System.Drawing.Size(100, 20);
             this.Segundos.TabIndex = 3;

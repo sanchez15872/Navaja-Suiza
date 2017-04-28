@@ -40,6 +40,7 @@ namespace NavajaSuiza.Aplicacion4
             // TextBoxFibonacci
             // 
             this.TextBoxFibonacci.Location = new System.Drawing.Point(91, 97);
+            this.TextBoxFibonacci.MaxLength = 2;
             this.TextBoxFibonacci.Name = "TextBoxFibonacci";
             this.TextBoxFibonacci.Size = new System.Drawing.Size(110, 20);
             this.TextBoxFibonacci.TabIndex = 0;

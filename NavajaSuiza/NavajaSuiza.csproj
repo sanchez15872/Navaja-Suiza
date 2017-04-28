@@ -139,10 +139,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Documentación\Documentación de Navaja Suiza\Casos de Prueba.xls" />
-    <None Include="Documentación\Documentación de Navaja Suiza\Help\Documentación.chm" />
-    <None Include="Documentación\Documentación de Navaja Suiza\Help\Documentación.chw" />
-    <None Include="Documentación\Documentación de Navaja Suiza\Help\LastBuild.log" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Casos de Prueba Caja Blanca.docx" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Casos de Prueba Caja Negra.xls" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\Documentación.chm" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\Documentación.chw" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\LastBuild.log" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\Working\Output\HtmlHelp1\Documentación.chm" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Política de estilos.pdf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -157,7 +160,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Documentación\Documentación de Navaja Suiza\Documentación NavajaSuiza.shfbproj" />
+    <Content Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Documentación NavajaSuiza.shfbproj" />
+    <Content Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\Working\Output\HtmlHelp1\html\a20716a2-4541-d2c9-8116-d557555364ac.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documentación del proyecto\Documentación de Navaja Suiza\Help\Help\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

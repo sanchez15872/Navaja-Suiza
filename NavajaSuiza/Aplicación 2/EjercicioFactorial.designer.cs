@@ -50,6 +50,7 @@ namespace NavajaSuiza.Aplicacion2
             // TextBoxFactorial
             // 
             this.TextBoxFactorial.Location = new System.Drawing.Point(140, 90);
+            this.TextBoxFactorial.MaxLength = 2;
             this.TextBoxFactorial.Name = "TextBoxFactorial";
             this.TextBoxFactorial.Size = new System.Drawing.Size(183, 20);
             this.TextBoxFactorial.TabIndex = 1;

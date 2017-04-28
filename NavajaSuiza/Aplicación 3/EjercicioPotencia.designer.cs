@@ -51,6 +51,7 @@ namespace NavajaSuiza.Aplicacion3
             // TextBoxNumero
             // 
             this.TextBoxNumero.Location = new System.Drawing.Point(149, 51);
+            this.TextBoxNumero.MaxLength = 3;
             this.TextBoxNumero.Name = "TextBoxNumero";
             this.TextBoxNumero.Size = new System.Drawing.Size(100, 20);
             this.TextBoxNumero.TabIndex = 1;
@@ -67,6 +68,7 @@ namespace NavajaSuiza.Aplicacion3
             // TextBoxPotencia
             // 
             this.TextBoxPotencia.Location = new System.Drawing.Point(149, 126);
+            this.TextBoxPotencia.MaxLength = 3;
             this.TextBoxPotencia.Name = "TextBoxPotencia";
             this.TextBoxPotencia.Size = new System.Drawing.Size(100, 20);
             this.TextBoxPotencia.TabIndex = 3;
