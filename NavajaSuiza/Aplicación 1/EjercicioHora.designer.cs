@@ -33,9 +33,9 @@ namespace NavajaSuiza.Aplicacion1
         private void InitializeComponent()
         {
             this.BotonMostrar = new System.Windows.Forms.Button();
-            this.Horas = new System.Windows.Forms.TextBox();
-            this.Minutos = new System.Windows.Forms.TextBox();
-            this.Segundos = new System.Windows.Forms.TextBox();
+            this.TextBoxHoras = new System.Windows.Forms.TextBox();
+            this.TextBoxMinutos = new System.Windows.Forms.TextBox();
+            this.TextBoxSegundos = new System.Windows.Forms.TextBox();
             this.Label1 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
@@ -51,29 +51,29 @@ namespace NavajaSuiza.Aplicacion1
             this.BotonMostrar.UseVisualStyleBackColor = true;
             this.BotonMostrar.Click += new System.EventHandler(this.BotonHora_Click);
             // 
-            // Horas
+            // TextBoxHoras
             // 
-            this.Horas.Location = new System.Drawing.Point(276, 55);
-            this.Horas.MaxLength = 2;
-            this.Horas.Name = "Horas";
-            this.Horas.Size = new System.Drawing.Size(100, 20);
-            this.Horas.TabIndex = 1;
+            this.TextBoxHoras.Location = new System.Drawing.Point(276, 55);
+            this.TextBoxHoras.MaxLength = 2;
+            this.TextBoxHoras.Name = "TextBoxHoras";
+            this.TextBoxHoras.Size = new System.Drawing.Size(100, 20);
+            this.TextBoxHoras.TabIndex = 1;
             // 
-            // Minutos
+            // TextBoxMinutos
             // 
-            this.Minutos.Location = new System.Drawing.Point(277, 97);
-            this.Minutos.MaxLength = 2;
-            this.Minutos.Name = "Minutos";
-            this.Minutos.Size = new System.Drawing.Size(100, 20);
-            this.Minutos.TabIndex = 2;
+            this.TextBoxMinutos.Location = new System.Drawing.Point(277, 97);
+            this.TextBoxMinutos.MaxLength = 2;
+            this.TextBoxMinutos.Name = "TextBoxMinutos";
+            this.TextBoxMinutos.Size = new System.Drawing.Size(100, 20);
+            this.TextBoxMinutos.TabIndex = 2;
             // 
-            // Segundos
+            // TextBoxSegundos
             // 
-            this.Segundos.Location = new System.Drawing.Point(277, 145);
-            this.Segundos.MaxLength = 2;
-            this.Segundos.Name = "Segundos";
-            this.Segundos.Size = new System.Drawing.Size(100, 20);
-            this.Segundos.TabIndex = 3;
+            this.TextBoxSegundos.Location = new System.Drawing.Point(277, 145);
+            this.TextBoxSegundos.MaxLength = 2;
+            this.TextBoxSegundos.Name = "TextBoxSegundos";
+            this.TextBoxSegundos.Size = new System.Drawing.Size(100, 20);
+            this.TextBoxSegundos.TabIndex = 3;
             // 
             // Label1
             // 
@@ -110,9 +110,9 @@ namespace NavajaSuiza.Aplicacion1
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label1);
-            this.Controls.Add(this.Segundos);
-            this.Controls.Add(this.Minutos);
-            this.Controls.Add(this.Horas);
+            this.Controls.Add(this.TextBoxSegundos);
+            this.Controls.Add(this.TextBoxMinutos);
+            this.Controls.Add(this.TextBoxHoras);
             this.Controls.Add(this.BotonMostrar);
             this.Name = "FormularioHora";
             this.Text = "Form1";
@@ -124,9 +124,9 @@ namespace NavajaSuiza.Aplicacion1
         #endregion
 
         private System.Windows.Forms.Button BotonMostrar;
-        private System.Windows.Forms.TextBox Horas;
-        private System.Windows.Forms.TextBox Minutos;
-        private System.Windows.Forms.TextBox Segundos;
+        private System.Windows.Forms.TextBox TextBoxHoras;
+        private System.Windows.Forms.TextBox TextBoxMinutos;
+        private System.Windows.Forms.TextBox TextBoxSegundos;
         private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Label Label2;
         private System.Windows.Forms.Label Label3;

@@ -17,18 +17,6 @@
             Constructor de la primera aplicación.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion1.FormularioHora.MostrarHora(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            Esta función es un void que según la hora, 
-            los minutos y los segundos que hayamos puesto en el TextBox
-            nos devolvera un MessageBox diciendo la hora que es con un segundo de más.
-            </summary>
-            <remarks>Si las horas los minutos o los segundos son incorrectos, nos devolverá 
-            un MessageBox diciendo que la hora no es correcta</remarks>
-            <param name="horas">Este parametro se lo pasamos del TextBoxHoras, nos indica la hora, se pasa de 00 a 23</param>
-            <param name="minutos">Este parametro se lo pasamos del TextBoxMinutos, nos indica los minutos, de 00 a 59.</param>
-            <param name="segundos">Este parametro se lo pasamos del TextBoxSegundos, nos indica los segundos, de 00 a 59.</param>
-        </member>
         <member name="M:NavajaSuiza.Aplicacion1.FormularioHora.BotonHora_Click(System.Object,System.EventArgs)">
             <summary>
             En este botón pasamos los datos de las horas, los minutos y los segundos por los TextBox, 
@@ -91,6 +79,23 @@
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
+        </member>
+        <member name="T:NavajaSuiza.Aplicacion1.LogicaHoras">
+            <summary>
+            Clase Lógica de Horas
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion1.LogicaHoras.MostrarHora(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Esta función es un void que según la hora, 
+            los minutos y los segundos que hayamos puesto en el TextBox
+            nos devolvera un MessageBox diciendo la hora que es con un segundo de más.
+            </summary>
+            <remarks>Si las horas los minutos o los segundos son incorrectos, nos devolverá 
+            un MessageBox diciendo que la hora no es correcta</remarks>
+            <param name="horas">Este parametro se lo pasamos del TextBoxHoras, nos indica la hora, se pasa de 00 a 23</param>
+            <param name="minutos">Este parametro se lo pasamos del TextBoxMinutos, nos indica los minutos, de 00 a 59.</param>
+            <param name="segundos">Este parametro se lo pasamos del TextBoxSegundos, nos indica los segundos, de 00 a 59.</param>
         </member>
         <member name="T:NavajaSuiza.Aplicacion2.FormularioFactorial">
             <summary>

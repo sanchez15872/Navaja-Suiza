@@ -59,6 +59,7 @@
     <Compile Include="Aplicación 1\FormularioAplicacion1.Designer.cs">
       <DependentUpon>FormularioAplicacion1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicación 1\LogicaHoras.cs" />
     <Compile Include="Aplicación 2\EjercicioFactorial.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -51,22 +51,22 @@ namespace NavajaSuiza.Aplicacion2
         /// <param name="e">Si uso</param>
         private void BotonCalcular_Click(object sender, EventArgs e)
         {
-           int numero, factorial;
-           bool correcto1;
+           int Numero, Factorial;
+           bool NumeroCorrecto;
 
-                numero = 0;
-                correcto1 = int.TryParse(TextBoxFactorial.Text, out numero);
-                factorial = CalcularFactorial(numero);
+                Numero = 0;
+                NumeroCorrecto = int.TryParse(TextBoxFactorial.Text, out Numero);
+                Factorial = CalcularFactorial(Numero);
 
-            if (correcto1)
+            if (NumeroCorrecto)
             {
-                if (factorial == 0)
+                if (Factorial == 0)
                 {
                     MessageBox.Show("El programa no permite números tan grandes");
                 }
                 else
                 {
-                    MessageBox.Show("El factorial de " + numero + " es " + factorial);
+                    MessageBox.Show("El factorial de " + Numero + " es " + Factorial);
                 }
             }
             else

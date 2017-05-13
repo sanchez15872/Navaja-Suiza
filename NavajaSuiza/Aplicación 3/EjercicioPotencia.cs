@@ -49,26 +49,26 @@ namespace NavajaSuiza.Aplicacion3
         /// <param name="e">Si uso</param>
         private void BotonPotencia_Click(object sender, EventArgs e)
         {
-            int numero, exponente, resultado;
-            bool correcto1, correcto2;
+            int Numero, Exponente, Resultado;
+            bool CorrectoNumero, CorrectoExponente;
 
-                numero = 0;
-                exponente = 0;
-                correcto1 = int.TryParse(TextBoxNumero.Text, out numero);
-                correcto2 = int.TryParse(TextBoxPotencia.Text, out exponente);
+                Numero = 0;
+                Exponente = 0;
+                CorrectoNumero = int.TryParse(TextBoxNumero.Text, out Numero);
+                CorrectoExponente = int.TryParse(TextBoxPotencia.Text, out Exponente);
 
-                resultado = PotenciaCalculada(numero, exponente);
+                Resultado = PotenciaCalculada(Numero, Exponente);
               
 
-            if (correcto1 && correcto2)
+            if (CorrectoNumero && CorrectoExponente)
             {
-                if (resultado == 0)
+                if (Resultado == 0)
                 {
                     MessageBox.Show("Número incorrecto");
                 }
                 else
                 {
-                    MessageBox.Show("El resultado es " + resultado);
+                    MessageBox.Show("El resultado es " + Resultado);
                 }
             }
             else

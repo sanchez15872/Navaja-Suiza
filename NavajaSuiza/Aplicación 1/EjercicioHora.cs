@@ -22,55 +22,7 @@ namespace NavajaSuiza.Aplicacion1
         {
             InitializeComponent();
         }
-
-        /// <summary>
-        /// Esta función es un void que según la hora, 
-        /// los minutos y los segundos que hayamos puesto en el TextBox
-        /// nos devolvera un MessageBox diciendo la hora que es con un segundo de más.
-        /// </summary>
-        /// <remarks>Si las horas los minutos o los segundos son incorrectos, nos devolverá 
-        /// un MessageBox diciendo que la hora no es correcta</remarks>
-        /// <param name="horas">Este parametro se lo pasamos del TextBoxHoras, nos indica la hora, se pasa de 00 a 23</param>
-        /// <param name="minutos">Este parametro se lo pasamos del TextBoxMinutos, nos indica los minutos, de 00 a 59.</param>
-        /// <param name="segundos">Este parametro se lo pasamos del TextBoxSegundos, nos indica los segundos, de 00 a 59.</param>
-        void MostrarHora(int horas,int minutos, int segundos)
-        {       
-            if (horas < 24 && minutos < 60 && segundos < 60)
-            {
-                if (segundos < 59)
-                {                    
-                    segundos = segundos + 1;
-                    MessageBox.Show("La hora siguiente será :" + horas + " :" + minutos + " :" + segundos);
-                }
-                if (segundos == 59)
-                {
-                    if (minutos == 59)
-                    {
-                        if (horas == 23)
-                        {
-                            MessageBox.Show("La hora siguiente será :" + "00 :" + "00 :" + "00 ");
-
-                        }
-                        else
-                        {
-                            horas = horas + 1;
-                            MessageBox.Show("La hora siguiente será :" + horas + "00 :" + "00 ");
-                        }
-
-                    }
-                    else
-                    {
-                        minutos = minutos + 1;
-                        MessageBox.Show("La hora siguiente será :" + horas + " :" + minutos + " :" + "00 ");
-                    }
-                }
-            }
-            else
-            {
-                MessageBox.Show("La hora no es correcta");
-            }
-
-        }
+   
         /// <summary>
         /// En este botón pasamos los datos de las horas, los minutos y los segundos por los TextBox, 
         /// y llamamos a la función MostrarHora.
@@ -80,25 +32,31 @@ namespace NavajaSuiza.Aplicacion1
         /// <param name="e">Si uso</param>
         private void BotonHora_Click(object sender, EventArgs e)
         {                 
-            int horas, minutos, segundos;
+            int Horas, Minutos, Segundos;
+            bool CorrectoHora, CorrectoMinutos, CorrectoSegundos;
+            string HoraCorrecta;
 
-            horas = 0;
-            minutos = 0;
-            segundos = 0;
+            Horas = 0;
+            Minutos = 0;
+            Segundos = 0;
 
-            try
+      
+            CorrectoHora = int.TryParse(TextBoxHoras.Text, out Horas);
+            CorrectoMinutos = int.TryParse(TextBoxMinutos.Text, out Minutos);
+            CorrectoSegundos = int.TryParse(TextBoxSegundos.Text, out Segundos);
+
+               
+
+            if (CorrectoHora && CorrectoMinutos && CorrectoSegundos)
             {
-                horas = int.Parse(Horas.Text);
-                minutos = int.Parse(Minutos.Text);
-                segundos = int.Parse(Segundos.Text);
+                HoraCorrecta = LogicaHoras.MostrarHora(Horas, Minutos, Segundos);
 
-
-                MostrarHora(horas, minutos, segundos);
+                MessageBox.Show(HoraCorrecta);
             }
-            catch 
+            else
             {
                 MessageBox.Show("Faltan datos");
-            }       
+            }
                            
         }
     }

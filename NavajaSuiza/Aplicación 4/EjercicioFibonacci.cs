@@ -61,23 +61,23 @@ namespace NavajaSuiza.Aplicacion4
         /// <param name="e">Si uso</param>
         private void BotonCalcular_Click(object sender, EventArgs e)
         {
-            int numero;
-            string texto;
-            bool correcto1;
+            int Numero;
+            string Texto;
+            bool CorrectoNumero;
 
-            numero = 0;
-            correcto1 = int.TryParse(TextBoxFibonacci.Text, out numero);
-            texto = CalcularFibonacci(numero);
+            Numero = 0;
+            CorrectoNumero = int.TryParse(TextBoxFibonacci.Text, out Numero);
+            Texto = CalcularFibonacci(Numero);
               
-            if (correcto1)
+            if (CorrectoNumero)
             {
-                if (numero <= 0)
+                if (Numero <= 0)
                 {
                     MessageBox.Show("Por favor introduzca numeros mayores que 0");
                 }
                 else
                 {
-                    MessageBox.Show(texto);
+                    MessageBox.Show(Texto);
                 }
                 
             }
