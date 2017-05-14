@@ -95,6 +95,7 @@ namespace NavajaSuiza.Aplicacion3
             this.Controls.Add(this.Label1);
             this.Name = "FormularioPotencia";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormularioPotencia_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

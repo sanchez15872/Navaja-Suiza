@@ -21,60 +21,56 @@ namespace NavajaSuiza.Aplicacion3
         public FormularioPotencia()
         {
             InitializeComponent();
-        }
-        /// <summary>
-        /// La función calcula una potencia, le devolvemos un número y un exponente y este nos devuelve la potencia.
-        /// </summary>
-        /// <remarks>Solo calcula positivos</remarks>
-        /// <param name="numero">Parámetro que indica la base de la potencia</param>
-        /// <param name="exponente">Parámetro que indica el exponente de la potencia</param>
-        /// <returns>Nos devuelve la potencia calculada a partir del numero y el exponente.</returns>
-         int PotenciaCalculada(int numero, int exponente)
-         {
-            int resultado = 1;
-
-            for (int i = 1; i<= exponente; i++ )
-            {
-                resultado = resultado * numero;
-            }
-
-            return resultado;
-         }
+        }       
         /// <summary>
         /// En el botón obtenemos los datos del número y del exponente y mediante la función potenciapro calculamos la 
         /// potencia y la mostramos en un MessageBox.
         /// </summary>
         /// <remarks>En caso de no escribir números nos devolverá un mensaje de error</remarks>
         /// <param name="sender">Lanza el evento del button1</param>
-        /// <param name="e">Si uso</param>
+        /// <param name="e">Si uso</param>      
         private void BotonPotencia_Click(object sender, EventArgs e)
         {
+            // Nueva instancia
+            LogicaPotencia CalcularPotencia = new LogicaPotencia();
             int Numero, Exponente, Resultado;
             bool CorrectoNumero, CorrectoExponente;
+            string Mensaje;
 
                 Numero = 0;
                 Exponente = 0;
                 CorrectoNumero = int.TryParse(TextBoxNumero.Text, out Numero);
                 CorrectoExponente = int.TryParse(TextBoxPotencia.Text, out Exponente);
+                Mensaje = "";
+               
 
-                Resultado = PotenciaCalculada(Numero, Exponente);
-              
-
-            if (CorrectoNumero && CorrectoExponente)
+            try
             {
-                if (Resultado == 0)
+                Resultado = CalcularPotencia.PotenciaCalculada(Numero, Exponente, out Mensaje);
+
+                if (CorrectoNumero && CorrectoExponente)
                 {
-                    MessageBox.Show("Número incorrecto");
+                    if (Resultado == 0)
+                    {
+                        Mensaje = ("Numero demasiado grande");
+                    }                  
                 }
                 else
                 {
-                    MessageBox.Show("El resultado es " + Resultado);
+                    Mensaje = ("No escribas strings o dejes espacios sin rellenar");
                 }
+                MessageBox.Show(Mensaje);
             }
-            else
+            catch (Exception Excepcion)
             {
-                MessageBox.Show("Error");
-            }
+
+                MessageBox.Show("Se ha producido un error" + Excepcion.Message);
+            }        
+        }
+
+        private void FormularioPotencia_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

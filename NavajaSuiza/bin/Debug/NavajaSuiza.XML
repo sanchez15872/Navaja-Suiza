@@ -110,13 +110,6 @@
             Constructor del FormularioFactorial.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion2.FormularioFactorial.CalcularFactorial(System.Int32)">
-            <summary>
-            Nos devolverá el factorial calculado a partir de un número añadido.
-            </summary>
-            <param name="numero">El numero que introducimos por TextBox del que calcularemos su factorial.</param>
-            <returns>Devolvemos el factorial del número.</returns>
-        </member>
         <member name="M:NavajaSuiza.Aplicacion2.FormularioFactorial.BotonCalcular_Click(System.Object,System.EventArgs)">
             <summary>
             En este botón pasamos el numero por un TextBox y mediante la funcion CalcularFactorial obtenemos
@@ -182,6 +175,19 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:NavajaSuiza.Aplicacion2.LogicaFactorial">
+            <summary>
+            Clase Logica Factorial
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion2.LogicaFactorial.CalcularFactorial(System.Int32,System.String@)">
+            <summary>
+            Nos devolverá el factorial calculado a partir de un número añadido.
+            </summary>
+            <param name="Numero">El numero que introducimos por TextBox del que calcularemos su factorial.</param>
+            <param name="Mensaje">Si el número que obtenemos es negativo nos saldrá un mensaje de error</param>
+            <returns>Devolvemos el factorial del número.</returns>
+        </member>
         <member name="T:NavajaSuiza.Aplicacion3.FormularioPotencia">
             <summary>
             Clase pública del FormularioPotencia
@@ -195,15 +201,6 @@
             Constructor pública del FormularioPotencia
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Aplicacion3.FormularioPotencia.PotenciaCalculada(System.Int32,System.Int32)">
-            <summary>
-            La función calcula una potencia, le devolvemos un número y un exponente y este nos devuelve la potencia.
-            </summary>
-            <remarks>Solo calcula positivos</remarks>
-            <param name="numero">Parámetro que indica la base de la potencia</param>
-            <param name="exponente">Parámetro que indica el exponente de la potencia</param>
-            <returns>Nos devuelve la potencia calculada a partir del numero y el exponente.</returns>
-        </member>
         <member name="M:NavajaSuiza.Aplicacion3.FormularioPotencia.BotonPotencia_Click(System.Object,System.EventArgs)">
             <summary>
             En el botón obtenemos los datos del número y del exponente y mediante la función potenciapro calculamos la 
@@ -211,7 +208,7 @@
             </summary>
             <remarks>En caso de no escribir números nos devolverá un mensaje de error</remarks>
             <param name="sender">Lanza el evento del button1</param>
-            <param name="e">Si uso</param>
+            <param name="e">Si uso</param>      
         </member>
         <member name="F:NavajaSuiza.Aplicacion3.FormularioPotencia.components">
             <summary>
@@ -267,6 +264,21 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:NavajaSuiza.Aplicacion3.LogicaPotencia">
+            <summary>
+            Clase LogicaPotencia
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion3.LogicaPotencia.PotenciaCalculada(System.Int32,System.Int32,System.String@)">
+            <summary>
+            La función calcula una potencia, le devolvemos un número y un exponente y este nos devuelve la potencia.
+            </summary>
+            <remarks>Solo calcula positivos</remarks>
+            <param name="numero">Parámetro que indica la base de la potencia</param>
+            <param name="exponente">Parámetro que indica el exponente de la potencia</param>
+            /// <param name="mensaje">Parámetro que nos devuelve el resultado</param>
+            <returns>Nos devuelve la potencia calculada a partir del numero y el exponente.</returns>
+        </member>
         <member name="T:NavajaSuiza.Aplicacion4.FormularioFibonacci">
             <summary>
             Clase pública del FormularioFibonacci
@@ -279,15 +291,6 @@
             <summary>
             Constructor del FormularioPotencia
             </summary>
-        </member>
-        <member name="M:NavajaSuiza.Aplicacion4.FormularioFibonacci.CalcularFibonacci(System.Int32)">
-            <summary>
-            En esta función introducimos un número y nos hará un bucle que nos calculará la sucesión de fibonacci
-            esta nos devolverá una cadena de texto que se repetirá hasta el numero que hayamos
-            introducido con las sumas realizadas.
-            </summary>
-            <param name="numero">el numero que nos indica hasta donde debe llegar la sucesión</param>
-            <returns>Devuelve una cadena de texto con la sucesión de fibonacci</returns>
         </member>
         <member name="M:NavajaSuiza.Aplicacion4.FormularioFibonacci.BotonCalcular_Click(System.Object,System.EventArgs)">
             <summary>
@@ -351,6 +354,15 @@
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
+        </member>
+        <member name="M:NavajaSuiza.Aplicacion4.LogicaFibonacci.CalcularFibonacci(System.Int32)">
+            <summary>
+            En esta función introducimos un número y nos hará un bucle que nos calculará la sucesión de fibonacci
+            esta nos devolverá una cadena de texto que se repetirá hasta el numero que hayamos
+            introducido con las sumas realizadas.
+            </summary>
+            <param name="numero">el numero que nos indica hasta donde debe llegar la sucesión</param>
+            <returns>Devuelve una cadena de texto con la sucesión de fibonacci</returns>
         </member>
         <member name="T:NavajaSuiza.FormularioMain">
             <summary>

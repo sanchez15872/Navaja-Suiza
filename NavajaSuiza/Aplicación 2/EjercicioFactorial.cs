@@ -23,24 +23,6 @@ namespace NavajaSuiza.Aplicacion2
             InitializeComponent();
         }
         /// <summary>
-        /// Nos devolverá el factorial calculado a partir de un número añadido.
-        /// </summary>
-        /// <param name="numero">El numero que introducimos por TextBox del que calcularemos su factorial.</param>
-        /// <returns>Devolvemos el factorial del número.</returns>
-        int CalcularFactorial(int numero)
-        {
-            int  i, factorial;
-            factorial = 1;
-
-            for (i = numero; i > 0; i--)
-            {
-                factorial = factorial * i;
-            }
-
-            return factorial;
-             
-        }
-        /// <summary>
         /// En este botón pasamos el numero por un TextBox y mediante la funcion CalcularFactorial obtenemos
         /// un MessageBox diciendo el factorial de un número.
         /// </summary>
@@ -53,27 +35,39 @@ namespace NavajaSuiza.Aplicacion2
         {
            int Numero, Factorial;
            bool NumeroCorrecto;
+           string Mensaje;
 
-                Numero = 0;
-                NumeroCorrecto = int.TryParse(TextBoxFactorial.Text, out Numero);
-                Factorial = CalcularFactorial(Numero);
+            Numero = 0;
+            Factorial = 0;
+            NumeroCorrecto = int.TryParse(TextBoxFactorial.Text, out Numero);
+            Mensaje = "";
 
-            if (NumeroCorrecto)
+            try
             {
-                if (Factorial == 0)
+                // Si hay ints escritos          
+                if (NumeroCorrecto)
                 {
-                    MessageBox.Show("El programa no permite números tan grandes");
+                    Factorial = LogicaFactorial.CalcularFactorial(Numero, out Mensaje);
+                    // si el valor es demasiado alto
+                    if (Factorial == 0)
+                    {
+                        Mensaje = "El programa no permite números tan grandes";
+                    }                 
                 }
+                // Si escribes strings o hay un espacio en blanco
                 else
                 {
-                    MessageBox.Show("El factorial de " + Numero + " es " + Factorial);
+                   Mensaje = "Introduzca un número";
                 }
+
+                MessageBox.Show(Mensaje);
             }
-            else
+            catch (Exception Excepcion)
             {
-                MessageBox.Show("Introduzca un número");
-            }   
-                                                              
+
+                MessageBox.Show("Se ha producido un error" + Excepcion.Message);
+            }
+                                                                         
         }
 
         private void Form1_Load(object sender, EventArgs e)

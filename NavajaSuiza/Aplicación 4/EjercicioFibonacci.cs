@@ -22,36 +22,6 @@ namespace NavajaSuiza.Aplicacion4
         {
             InitializeComponent();
         }
-
-        /// <summary>
-        /// En esta función introducimos un número y nos hará un bucle que nos calculará la sucesión de fibonacci
-        /// esta nos devolverá una cadena de texto que se repetirá hasta el numero que hayamos
-        /// introducido con las sumas realizadas.
-        /// </summary>
-        /// <param name="numero">el numero que nos indica hasta donde debe llegar la sucesión</param>
-        /// <returns>Devuelve una cadena de texto con la sucesión de fibonacci</returns>
-        string CalcularFibonacci (int numero)
-        {
-            int numero1, numero2, NumeroFibonacci;
-            string texto;
-
-            texto = "la sucesion es";            
-            numero1 = 1;
-            numero2 = 1;
-            NumeroFibonacci = 0;
-
-            for (int i = 1; i <= numero; i++)
-            {
-                numero1 = numero2;
-                numero2 = NumeroFibonacci;
-                NumeroFibonacci = numero1 + numero2;
-                texto = texto + " + " + NumeroFibonacci;
-
-            }
-
-            return texto;
-        }
-
         /// <summary>
         /// Muestra el resultado de la funcion CalcularFibonacci mediante un MessageBox
         /// pasándole el número en un TextBox.
@@ -61,30 +31,42 @@ namespace NavajaSuiza.Aplicacion4
         /// <param name="e">Si uso</param>
         private void BotonCalcular_Click(object sender, EventArgs e)
         {
+            // Nueva instancia
+            LogicaFibonacci Fibonacci = new LogicaFibonacci();
             int Numero;
             string Texto;
             bool CorrectoNumero;
 
             Numero = 0;
             CorrectoNumero = int.TryParse(TextBoxFibonacci.Text, out Numero);
-            Texto = CalcularFibonacci(Numero);
-              
-            if (CorrectoNumero)
+            Texto = " ";
+
+            try
             {
-                if (Numero <= 0)
+                Texto = Fibonacci.CalcularFibonacci(Numero);
+
+                if (CorrectoNumero)
                 {
-                    MessageBox.Show("Por favor introduzca numeros mayores que 0");
+                    if (Numero <= 0)
+                    {
+                        MessageBox.Show("Por favor introduzca numeros mayores que 0");
+                    }
+                    else
+                    {
+                        MessageBox.Show(Texto);
+                    }
+
                 }
                 else
                 {
-                    MessageBox.Show(Texto);
+                    MessageBox.Show("Por favor introduzca números");
                 }
-                
             }
-            else
+            catch (Exception Excepcion)
             {
-                MessageBox.Show("Por favor introduzca números");
-            }
+                MessageBox.Show("Se ha producido un error" + Excepcion.Message);
+            }  
+           
         }
 
         private void FormularioFibonacci_Load(object sender, EventArgs e)

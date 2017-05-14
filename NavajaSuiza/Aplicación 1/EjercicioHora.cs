@@ -21,8 +21,7 @@ namespace NavajaSuiza.Aplicacion1
         public FormularioHora()
         {
             InitializeComponent();
-        }
-   
+        }     
         /// <summary>
         /// En este botón pasamos los datos de las horas, los minutos y los segundos por los TextBox, 
         /// y llamamos a la función MostrarHora.
@@ -39,25 +38,34 @@ namespace NavajaSuiza.Aplicacion1
             Horas = 0;
             Minutos = 0;
             Segundos = 0;
-
+            HoraCorrecta = " ";             
       
             CorrectoHora = int.TryParse(TextBoxHoras.Text, out Horas);
             CorrectoMinutos = int.TryParse(TextBoxMinutos.Text, out Minutos);
             CorrectoSegundos = int.TryParse(TextBoxSegundos.Text, out Segundos);
 
-               
-
-            if (CorrectoHora && CorrectoMinutos && CorrectoSegundos)
+            try
             {
-                HoraCorrecta = LogicaHoras.MostrarHora(Horas, Minutos, Segundos);
+               
+                // Si hay ints escritos
+                if (CorrectoHora && CorrectoMinutos && CorrectoSegundos)
+                 {
+                   HoraCorrecta = LogicaHoras.MostrarHora(Horas, Minutos, Segundos);
+                 }
+                // Cuando los campos están vacíos o usando strings
+               else
+                {
+                    HoraCorrecta = "Por favor, usa solo números o rellene los campos vacíos";
+                }
 
                 MessageBox.Show(HoraCorrecta);
             }
-            else
+
+            catch(Exception Excepcion) 
             {
-                MessageBox.Show("Faltan datos");
-            }
-                           
+                MessageBox.Show("Se ha producido un error" + Excepcion.Message);
+            }        
+                               
         }
     }
 }

@@ -33,12 +33,12 @@
     </DocumentationSources>
     <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Privates, PrivateFields, Protected, ProtectedInternalAsProtected</VisibleItems>
     <NamespaceSummaries>
-      <NamespaceSummaryItem name="(global)" isDocumented="False" xmlns="" />
-<NamespaceSummaryItem name="NavajaSuiza" isDocumented="True" xmlns="">Menu Principal</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaSuiza.Aplicacion1" isDocumented="True" xmlns="">Aplicacion 1 MostrarHora</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaSuiza.Aplicacion2" isDocumented="True" xmlns="">Aplicacion 2 Factorial</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaSuiza.Aplicacion3" isDocumented="True" xmlns="">Aplicacion 3 Potencia</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaSuiza.Aplicacion4" isDocumented="True" xmlns="">Aplicacion 4 Fibonnaci</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="(global)" isDocumented="True" />
+<NamespaceSummaryItem name="NavajaSuiza" isDocumented="True">Menu Principal</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaSuiza.Aplicacion1" isDocumented="True">Aplicacion 1 MostrarHora</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaSuiza.Aplicacion2" isDocumented="True">Aplicacion 2 Factorial</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaSuiza.Aplicacion3" isDocumented="True">Aplicacion 3 Potencia</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaSuiza.Aplicacion4" isDocumented="True">Aplicacion 4 Fibonnaci</NamespaceSummaryItem></NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

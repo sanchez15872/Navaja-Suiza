@@ -72,6 +72,7 @@
     <Compile Include="Aplicación 2\FormularioAplicacion2.Designer.cs">
       <DependentUpon>FormularioAplicacion2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicación 2\LogicaFactorial.cs" />
     <Compile Include="Aplicación 3\EjercicioPotencia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,7 @@
     <Compile Include="Aplicación 3\FormularioAplicacion3.Designer.cs">
       <DependentUpon>FormularioAplicacion3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicación 3\LogicaPotencia.cs" />
     <Compile Include="Aplicación 4\EjercicioFibonacci.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +98,7 @@
     <Compile Include="Aplicación 4\FormularioAplicacion4.Designer.cs">
       <DependentUpon>FormularioAplicacion4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicación 4\LogicaFibonacci.cs" />
     <Compile Include="FormularioMain.cs">
       <SubType>Form</SubType>
     </Compile>

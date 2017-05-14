@@ -17,10 +17,11 @@ namespace NavajaSuiza.Aplicacion1
         /// nos devolvera un MessageBox diciendo la hora que es con un segundo de más.
         /// </summary>
         /// <remarks>Si las horas los minutos o los segundos son incorrectos, nos devolverá 
-        /// un MessageBox diciendo que la hora no es correcta</remarks>
+        /// un MessageBox diciendo que la hora no es correcta</remarks>       
         /// <param name="horas">Este parametro se lo pasamos del TextBoxHoras, nos indica la hora, se pasa de 00 a 23</param>
         /// <param name="minutos">Este parametro se lo pasamos del TextBoxMinutos, nos indica los minutos, de 00 a 59.</param>
         /// <param name="segundos">Este parametro se lo pasamos del TextBoxSegundos, nos indica los segundos, de 00 a 59.</param>
+        /// <returns>Nos devuelve un mensaje con la hora correspondiente</returns>
         public static string MostrarHora(int horas, int minutos, int segundos)
         {
             string mensaje;
@@ -63,9 +64,6 @@ namespace NavajaSuiza.Aplicacion1
             }
 
             return mensaje;
-        }
-
-
-
+        }     
     }
 }
