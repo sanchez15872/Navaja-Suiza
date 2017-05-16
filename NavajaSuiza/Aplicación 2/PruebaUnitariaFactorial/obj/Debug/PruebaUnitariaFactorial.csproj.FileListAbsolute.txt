@@ -1,0 +1,7 @@
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\bin\Debug\PruebaUnitariaFactorial.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\bin\Debug\PruebaUnitariaFactorial.pdb
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\obj\Debug\PruebaUnitariaFactorial.csprojResolveAssemblyReference.cache
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\obj\Debug\PruebaUnitariaFactorial.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\obj\Debug\PruebaUnitariaFactorial.pdb

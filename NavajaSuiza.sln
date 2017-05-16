@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavajaSuiza", "NavajaSuiza\NavajaSuiza.csproj", "{39467577-9311-45E9-9CA8-C2BC854B3A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitariaFactorial", "NavajaSuiza\Aplicación 2\PruebaUnitariaFactorial\PruebaUnitariaFactorial.csproj", "{1F9ED1D2-8203-4B9C-BB97-3DD0E6293291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitariaFibonacci", "NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\PruebaUnitariaFibonacci.csproj", "{9B4324F6-B942-437A-A4B1-D514EC4D5D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitariaPotencia", "NavajaSuiza\Aplicación 3\PruebaUnitariaPotencia\PruebaUnitariaPotencia.csproj", "{28A1902B-9B27-4F55-AF29-EA62F0E33203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoUnitariasHoras", "NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\ProyectoUnitariasHoras.csproj", "{79C5A7C6-FF79-468A-894D-3166CD9DE2FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{39467577-9311-45E9-9CA8-C2BC854B3A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39467577-9311-45E9-9CA8-C2BC854B3A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39467577-9311-45E9-9CA8-C2BC854B3A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9ED1D2-8203-4B9C-BB97-3DD0E6293291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9ED1D2-8203-4B9C-BB97-3DD0E6293291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9ED1D2-8203-4B9C-BB97-3DD0E6293291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9ED1D2-8203-4B9C-BB97-3DD0E6293291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B4324F6-B942-437A-A4B1-D514EC4D5D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4324F6-B942-437A-A4B1-D514EC4D5D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4324F6-B942-437A-A4B1-D514EC4D5D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4324F6-B942-437A-A4B1-D514EC4D5D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A1902B-9B27-4F55-AF29-EA62F0E33203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A1902B-9B27-4F55-AF29-EA62F0E33203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A1902B-9B27-4F55-AF29-EA62F0E33203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A1902B-9B27-4F55-AF29-EA62F0E33203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C5A7C6-FF79-468A-894D-3166CD9DE2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C5A7C6-FF79-468A-894D-3166CD9DE2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C5A7C6-FF79-468A-894D-3166CD9DE2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C5A7C6-FF79-468A-894D-3166CD9DE2FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\bin\Debug\ProyectoUnitariasHoras.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\bin\Debug\ProyectoUnitariasHoras.pdb
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\obj\Debug\ProyectoUnitariasHoras.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\obj\Debug\ProyectoUnitariasHoras.pdb

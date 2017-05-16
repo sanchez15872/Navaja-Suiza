@@ -1,0 +1,7 @@
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\bin\Debug\PruebaUnitariaFibonacci.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\bin\Debug\PruebaUnitariaFibonacci.pdb
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\obj\Debug\PruebaUnitariaFibonacci.csprojResolveAssemblyReference.cache
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\obj\Debug\PruebaUnitariaFibonacci.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 4\PruebaUnitariaFibonacci\obj\Debug\PruebaUnitariaFibonacci.pdb

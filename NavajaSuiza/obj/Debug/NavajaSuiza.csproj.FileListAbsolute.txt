@@ -66,3 +66,4 @@ G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debu
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion2.FormularioAplicacion2.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion3.FormularioAplicacion4.resources
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\Debug\NavajaSuiza.Aplicacion4.FormularioAplicacion4.resources
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\obj\NavajaSuiza.exe.config

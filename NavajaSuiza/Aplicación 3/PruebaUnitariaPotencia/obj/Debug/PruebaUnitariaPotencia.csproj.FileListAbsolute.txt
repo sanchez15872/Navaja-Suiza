@@ -1,0 +1,6 @@
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 3\PruebaUnitariaPotencia\bin\Debug\PruebaUnitariaPotencia.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 3\PruebaUnitariaPotencia\bin\Debug\PruebaUnitariaPotencia.pdb
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 3\PruebaUnitariaPotencia\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 3\PruebaUnitariaPotencia\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 3\PruebaUnitariaPotencia\obj\Debug\PruebaUnitariaPotencia.dll
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 3\PruebaUnitariaPotencia\obj\Debug\PruebaUnitariaPotencia.pdb

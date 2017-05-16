@@ -26,7 +26,7 @@ namespace NavajaSuiza.Aplicacion1
         /// En este botón pasamos los datos de las horas, los minutos y los segundos por los TextBox, 
         /// y llamamos a la función MostrarHora.
         /// </summary>
-        /// <remarks>En caso de no pasar todos los datos o no poner los caracteres correctos dará un mensaje de error.</remarks>
+        /// <remarks>En caso de no pasar todos los datos o no poner los caracteres correctos dará un mensaje de error</remarks>
         /// <param name="sender">Lanza el evento del button1</param>
         /// <param name="e">Si uso</param>
         private void BotonHora_Click(object sender, EventArgs e)

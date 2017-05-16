@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Documentación NavajaSuiza.shfbproj" started="14/05/2017 20:29:17">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Documentación NavajaSuiza.shfbproj" started="14/05/2017 20:50:18">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -46,7 +46,7 @@ Generating API filter for MRefBuilder...
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Compilaci&#162;n iniciada a las 14/05/2017 20:29:21.
+Compilaci&#162;n iniciada a las 14/05/2017 20:50:20.
 El destino &quot;_ConvertPdbFiles&quot; que aparece en un atributo BeforeTargets en &quot;C:\Program Files\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot; no existe en el proyecto y se omitir&#160;.
 El destino &quot;_CollectPdbFiles&quot; que aparece en un atributo AfterTargets en &quot;C:\Program Files\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot; no existe en el proyecto y se omitir&#160;.
 El destino &quot;_CollectMdbFiles&quot; que aparece en un atributo BeforeTargets en &quot;C:\Program Files\MSBuild\4.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)&quot; no existe en el proyecto y se omitir&#160;.
@@ -71,13 +71,13 @@ Compilaci&#162;n del proyecto terminada &quot;G:\Entornos de Desarrollo\NavajaSu
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:23.36
-    Last step completed in 00:00:23,8682
+Tiempo transcurrido 00:00:02.15
+    Last step completed in 00:00:02,5781
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Compilaci&#162;n iniciada a las 14/05/2017 20:29:45.
+Compilaci&#162;n iniciada a las 14/05/2017 20:50:22.
 Proyecto &quot;G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\TransformManifest.proj&quot; en nodo 1 (destinos predeterminados).
 El archivo del proyecto contiene ToolsVersion=&quot;12.0&quot;. Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versi&#162;n apropiada de MSBuild. Tambi‚n es posible que, por motivos de directiva, se haya exigido a la compilaci&#162;n que use un valor determinado para ToolsVersion. Se tratar&#160; el proyecto como si contuviera ToolsVersion=&quot;4.0&quot;. Para obtener m&#160;s informaci&#162;n, vea http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
@@ -98,12 +98,12 @@ Compilaci&#162;n del proyecto terminada &quot;G:\Entornos de Desarrollo\NavajaSu
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:15.18
-    Last step completed in 00:00:15,4629
+Tiempo transcurrido 00:00:06.57
+    Last step completed in 00:00:06,8447
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,3438
+    Last step completed in 00:00:00,3281
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -112,12 +112,12 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00,0156
+    Last step completed in 00:00:00,0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Compilaci&#162;n iniciada a las 14/05/2017 20:30:00.
+Compilaci&#162;n iniciada a las 14/05/2017 20:50:29.
 Proyecto &quot;G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\GenerateIntermediateTOC.proj&quot; en nodo 1 (destinos predeterminados).
 El archivo del proyecto contiene ToolsVersion=&quot;12.0&quot;. Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versi&#162;n apropiada de MSBuild. Tambi‚n es posible que, por motivos de directiva, se haya exigido a la compilaci&#162;n que use un valor determinado para ToolsVersion. Se tratar&#160; el proyecto como si contuviera ToolsVersion=&quot;4.0&quot;. Para obtener m&#160;s informaci&#162;n, vea http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
@@ -129,26 +129,26 @@ Compilaci&#162;n del proyecto terminada &quot;G:\Entornos de Desarrollo\NavajaSu
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:00.51
+Tiempo transcurrido 00:00:00.50
 Generating conceptual content intermediate TOC file...
     Last step completed in 00:00:00,7656
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,9531
+    Last step completed in 00:00:00,8750
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#225;nchez Lozano\NavajaSuiza\Documentaci&#243;n del proyecto\Documentaci&#243;n de Navaja Suiza\Ficheros de documentaci&#243;n\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00,0313
+    Last step completed in 00:00:00,0156
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe - BuildTopics.proj]
-Compilaci&#162;n iniciada a las 14/05/2017 20:30:02.
+Compilaci&#162;n iniciada a las 14/05/2017 20:50:31.
 Proyecto &quot;G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
 El archivo del proyecto contiene ToolsVersion=&quot;12.0&quot;. Este conjunto de herramientas falta o es desconocido, en cuyo caso es posible que pueda resolver este problema instalando la versi&#162;n apropiada de MSBuild. Tambi‚n es posible que, por motivos de directiva, se haya exigido a la compilaci&#162;n que use un valor determinado para ToolsVersion. Se tratar&#160; el proyecto como si contuviera ToolsVersion=&quot;4.0&quot;. Para obtener m&#160;s informaci&#162;n, vea http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildTopics:
@@ -171,7 +171,6 @@ BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion1.Form
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion1.FormularioHora.TextBoxHoras] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion1.FormularioHora.TextBoxMinutos] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion1.FormularioHora.TextBoxSegundos] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:NavajaSuiza.Aplicacion1.LogicaHoras.MostrarHora(System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion2.FormularioAplicacion2.Boton1] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion2.FormularioAplicacion2.Label1] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion2.FormularioFactorial.Boton1] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
@@ -199,20 +198,19 @@ BuildAssembler : warning : ShowMissingComponent: [M:NavajaSuiza.Aplicacion4.Form
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion4.FormularioFibonacci.Label1] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [F:NavajaSuiza.Aplicacion4.FormularioFibonacci.TextBoxFibonacci] Missing &lt;summary&gt; documentation [G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj]
   Processed 149 topic(s)
-  41 warning(s)
+  40 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
-  SaveComponent: Waiting for the document writer task to finish (11 Help1 API file(s) remaining)...
 Compilaci&#162;n del proyecto terminada &quot;G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\BuildTopics.proj&quot; (destinos predeterminados).
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:45.93
-    Last step completed in 00:00:46,3574
+Tiempo transcurrido 00:00:38.23
+    Last step completed in 00:00:38,5947
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0313
+    Last step completed in 00:00:00,0000
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -229,7 +227,7 @@ Processed 149 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\Documentaci&#162;n.hhk
 Saving HTML Help 1 table of contents to G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#160;nchez Lozano\NavajaSuiza\Documentaci&#162;n del proyecto\Documentaci&#162;n de Navaja Suiza\Ficheros de documentaci&#162;n\Help\Working\Documentaci&#162;n.hhc
-    Last step completed in 00:00:08,2100
+    Last step completed in 00:00:02,7656
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -295,7 +293,7 @@ C:\Program Files\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS20
 C:\Program Files\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#225;nchez Lozano\NavajaSuiza\Documentaci&#243;n del proyecto\Documentaci&#243;n de Navaja Suiza\Ficheros de documentaci&#243;n\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
 C:\Program Files\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#225;nchez Lozano\NavajaSuiza\Documentaci&#243;n del proyecto\Documentaci&#243;n de Navaja Suiza\Ficheros de documentaci&#243;n\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
 C:\Program Files\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#225;nchez Lozano\NavajaSuiza\Documentaci&#243;n del proyecto\Documentaci&#243;n de Navaja Suiza\Ficheros de documentaci&#243;n\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:00,9404
+    Last step completed in 00:00:00,7969
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -307,7 +305,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00,0469
+    Last step completed in 00:00:00,0156
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -323,7 +321,7 @@ El archivo del proyecto contiene ToolsVersion=&quot;12.0&quot;. Este conjunto de
   
   
   
-  Compile time: 0 minutes, 7 seconds
+  Compile time: 0 minutes, 6 seconds
   
   151	Topics
   
@@ -337,20 +335,19 @@ El archivo del proyecto contiene ToolsVersion=&quot;12.0&quot;. Este conjunto de
   
   
   
-  Created g:\Entornos de Desarrollo\NavajaSuiza Pedro S&#225;nchez Lozano\NavajaSuiza\Documentaci&#243;n del proyecto\Documentaci&#243;n de Navaja Suiza\Ficheros de documentaci&#243;n\Help\Working\Output\HtmlHelp1\Documentaci&#243;n.chm, 687,034 bytes
+  Created g:\Entornos de Desarrollo\NavajaSuiza Pedro S&#225;nchez Lozano\NavajaSuiza\Documentaci&#243;n del proyecto\Documentaci&#243;n de Navaja Suiza\Ficheros de documentaci&#243;n\Help\Working\Output\HtmlHelp1\Documentaci&#243;n.chm, 687,132 bytes
   
-  Compression decreased file by 4,673,612 bytes.
+  Compression decreased file by 4,673,361 bytes.
   
-    Last step completed in 00:00:09,4121
+    Last step completed in 00:00:08,8125
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Not all build output was removed from &#39;G:\Entornos de Desarrollo\NavajaSuiza Pedro S&#225;nchez Lozano\NavajaSuiza\Documentaci&#243;n del proyecto\Documentaci&#243;n de Navaja Suiza\Ficheros de documentaci&#243;n\Help\Working\&#39;: El proceso no puede obtener acceso al archivo &#39;3ebbfcbe-c3e7-5154-ea91-9dfa40768dc7.htm&#39; porque est&#225; siendo utilizado en otro proceso.
-    Last step completed in 00:00:00,3594
+    Last step completed in 00:00:00,2969
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 14/05/2017 20:31:07.  Total time: 00:01:50,7666
+Build completed successfully at 14/05/2017 20:51:22.  Total time: 00:01:04,0176
 
 </buildStep>
 </shfbBuild>
