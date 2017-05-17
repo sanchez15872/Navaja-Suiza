@@ -28,41 +28,47 @@ namespace NavajaSuiza.Aplicacion1
 
             mensaje = " ";
 
-            if (horas < 24 && minutos < 60 && segundos < 60)
+            if (horas < 0 || minutos < 0 || segundos < 0)
             {
-                if (segundos < 59)
+                mensaje = "La hora no acepta negativos";
+            }
+            else
+            {
+                if (horas < 24 && minutos < 60 && segundos < 60)
                 {
-                    segundos = segundos + 1;
-                    mensaje = ("La hora siguiente será :" + horas + " :" + minutos + " :" + segundos);
-                }
-                if (segundos == 59)
-                {
-                    if (minutos == 59)
+                    if (segundos < 59)
                     {
-                        if (horas == 23)
+                        segundos = segundos + 1;
+                        mensaje = ("La hora siguiente será :" + horas + " :" + minutos + " :" + segundos);
+                    }
+                    if (segundos == 59)
+                    {
+                        if (minutos == 59)
                         {
-                            mensaje = ("La hora siguiente será :" + "00 :" + "00 :" + "00 ");
+                            if (horas == 23)
+                            {
+                                mensaje = ("La hora siguiente será :" + "00 :" + "00 :" + "00 ");
+
+                            }
+                            else
+                            {
+                                horas = horas + 1;
+                                mensaje = ("La hora siguiente será :" + horas + "00 :" + "00 ");
+                            }
 
                         }
                         else
                         {
-                            horas = horas + 1;
-                            mensaje = ("La hora siguiente será :" + horas + "00 :" + "00 ");
+                            minutos = minutos + 1;
+                            mensaje = ("La hora siguiente será :" + horas + " :" + minutos + " :" + "00 ");
                         }
-
-                    }
-                    else
-                    {
-                        minutos = minutos + 1;
-                        mensaje =("La hora siguiente será :" + horas + " :" + minutos + " :" + "00 ");
                     }
                 }
+                else
+                {
+                    mensaje = ("La hora no es correcta");
+                }
             }
-            else
-            {
-                mensaje = ("La hora no es correcta");
-            }
-
             return mensaje;
         }     
     }

@@ -4,3 +4,4 @@ G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicaci
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\obj\Debug\ProyectoUnitariasHoras.dll
 G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\obj\Debug\ProyectoUnitariasHoras.pdb
+G:\Entornos de Desarrollo\NavajaSuiza Pedro Sánchez Lozano\NavajaSuiza\Aplicación 1\ProyectoUnitariasHoras\obj\Debug\ProyectoUnitariasHoras.csprojResolveAssemblyReference.cache
