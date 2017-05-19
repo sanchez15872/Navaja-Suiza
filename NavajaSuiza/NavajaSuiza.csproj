@@ -145,6 +145,7 @@
     </Compile>
     <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Casos de Prueba Caja Blanca.docx" />
     <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Casos de Prueba Caja Negra.xls" />
+    <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Casos de Prueba del TestUnitario.xls" />
     <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\Documentación.chm" />
     <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\Documentación.chw" />
     <None Include="Documentación del proyecto\Documentación de Navaja Suiza\Ficheros de documentación\Help\LastBuild.log" />
